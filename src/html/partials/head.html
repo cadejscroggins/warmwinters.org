@@ -1,0 +1,22 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="theme-color" content="{{ .Site.Params.ThemeColor }}">
+
+<title>{{ .Title }}</title>
+<meta name="description" content="{{ .Description }}">
+
+<link href="{{ .Permalink }}" rel="canonical">
+
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans:300,700|Merriweather" rel="stylesheet">
+<link href="/bundle.css" rel="stylesheet">
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js" defer></script>
+<script src="/bundle.js" defer></script>
+
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}

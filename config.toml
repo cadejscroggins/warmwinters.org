@@ -1,0 +1,23 @@
+baseURL = "https://warmwinters.org"
+enableEmoji = true
+googleAnalytics = "12345"
+languageCode = "en-us"
+layoutDir = "src/html"
+publishDir = "dist"
+staticDir = "build"
+taxonomies = []
+title = "Test"
+
+[params]
+  description = "We help the less fortunate."
+  images = ["img/social.jpg"]
+  videos = []
+  themeColor = "#fff"
+
+[permalinks]
+  page = "/:slug/"
+
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML"]

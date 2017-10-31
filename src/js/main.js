@@ -20,7 +20,16 @@ function onMouseMove(e) {
 InstantClick.on('change', () => {
   // ga('send', 'pageview', location.pathname + location.search);
   document.addEventListener('mousemove', onMouseMove);
+
+  const toggle = document.querySelector('.js-nav-toggle');
+  const nav = document.querySelector('nav');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+    if (nav.classList.contains('active')) toggle.src = '/img/close.svg';
+    else toggle.src = '/img/menu.svg';
+  });
 });
  
-InstantClick.init(true);
+InstantClick.init();
 

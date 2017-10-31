@@ -1,0 +1,67 @@
+@import "variables";
+@import "mixins";
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  padding-top: $vertical-padding-large * .7;
+  padding-bottom: $vertical-padding-large * .7;
+  background-color: $bg-secondary;
+  background: url("img/concrete-bed.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+
+  @include mq-small {
+    padding-top: $vertical-padding-large;
+    padding-bottom: $vertical-padding-large;
+  }
+
+  @include mq-medium {
+    height: 26rem;
+    margin-top: $vertical-padding-small;
+  }
+
+  p {
+    margin: 0;
+    color: $white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    line-height: 1.4em;
+
+    @include mq-small {
+      line-height: 1.5em;
+    }
+
+    @include mq-medium {
+      font-size: 3em;
+    }
+  }
+}
+
+.intro {
+  background-color: $bg-primary-off;
+  text-align: center;
+
+  p {
+    font-size: .9em;
+
+    @include mq-small {
+      font-size: 1.1em;
+    }
+
+    @include mq-medium {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.impact {
+  background-color: $bg-secondary;
+  color: $text-secondary;
+  text-align: center;
+}

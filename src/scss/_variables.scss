@@ -1,0 +1,36 @@
+// base colors
+$white: #fff;
+$off-black: #35383F;
+$blue: #95D0F2;
+$purple: #949cef;
+
+// theme colors
+$bg-primary: $white;
+$bg-primary-off: darken($bg-primary, 3%);
+$bg-secondary: $off-black;
+$text-primary: $off-black;
+$text-secondary: $white;
+$accent-primary: $blue;
+$accent-secondary: $purple;
+
+// boxes
+$border-radius: 0;
+$content-width: 1100px;
+$content-padding-small: 1.2rem;
+$content-padding-smaller: $content-padding-small / 1.4;
+$header-icon-height: 2rem;
+$header-height: $content-padding-smaller * 2 + $header-icon-height;
+$horizontal-padding-large: 4rem;
+$vertical-padding-large: 5.5rem;
+$vertical-padding-small: 2.5rem;
+$vertical-padding-smaller: 1.5rem;
+$z-middle: 500;
+$z-middle-top: 750;
+$z-top: 999;
+$z-top-top: 1000;
+
+// media queries
+$mq-small: 500px;
+$mq-medium: 900px;
+$mq-large: $content-width;
+$mq-xlarge: 1400px;

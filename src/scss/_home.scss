@@ -9,8 +9,8 @@
   margin-top: 0;
   padding-top: $vertical-padding-large * .7;
   padding-bottom: $vertical-padding-large * .7;
-  background-color: $bg-secondary;
   background: url("img/concrete-bed.jpg") no-repeat center center;
+  background-color: $bg-secondary;
   background-size: cover;
   text-align: center;
 
@@ -21,7 +21,7 @@
 
   @include mq-medium {
     height: 26rem;
-    margin-top: $vertical-padding-small;
+    margin-top: $vertical-padding-smaller;
   }
 
   p {
@@ -55,6 +55,7 @@
     }
 
     @include mq-medium {
+      padding: $content-padding-smaller $content-padding-smaller * 3;
       font-size: 1.5em;
     }
   }

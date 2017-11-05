@@ -1,15 +1,14 @@
 @import "variables";
 
 .button {
-	display: inline-block;
-	margin-top: $vertical-padding-smaller;
-	padding: 1em 2em;
-	border: solid 2px $text-primary;
-	font-size: .9em;
+  display: inline-block;
+  margin-top: $vertical-padding-smaller;
+  padding: 1em 2em;
+  background-color: $bg-secondary;
+  color: $text-secondary;
+  font-size: 1em;
 
-	&:hover {
-		background-color: $bg-secondary;
-		color: $text-secondary;
-		transform: scale(1.04);
-	}
+  &:hover {
+    transform: scale(1.04);
+  }
 }

@@ -2,6 +2,7 @@
 @import "mixins";
 
 html {
+  background-color: $bg-primary;
   color: $text-primary;
   font-family: "Merriweather", serif;
   font-size: 4vw;
@@ -11,7 +12,7 @@ html {
   }
 
   @include mq-medium {
-    font-size: 1.7vw;
+    font-size: 1.55vw;
   }
 
   @include mq-large {
@@ -31,6 +32,10 @@ a {
   color: $text-primary;
   text-decoration: none;
   transition: color .2s, border-color .2s, background-color .2s, transform .2s;
+}
+
+input {
+  outline: none;
 }
 
 h1,
@@ -63,7 +68,7 @@ section {
 
   p {
     margin-top: $vertical-padding-smaller;
-    line-height: 1.9em;
+    line-height: 2em;
   }
 }
 

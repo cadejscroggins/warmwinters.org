@@ -3,7 +3,7 @@
 
 header {
   @include mq-medium {
-    padding-top: $vertical-padding-large;
+    padding-top: $vertical-padding-small;
   }
 }
 
@@ -14,14 +14,12 @@ h1 {
   width: 100%;
   padding: $content-padding-smaller $content-padding-small;
   background-color: $bg-primary;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1);
   z-index: $z-middle-top;
 
   @include mq-medium {
     position: relative;
     padding: 0;
     background-color: inherit;
-    box-shadow: none;
   }
 
   a {
@@ -29,6 +27,9 @@ h1 {
     width: auto;
     text-transform: uppercase;
 
+    @include mq-medium {
+      display: inline-block;
+    }
   }
 
   img {
@@ -37,6 +38,10 @@ h1 {
 
     @include mq-small {
       margin: 0 auto;
+    }
+
+    @include mq-medium {
+      height: 2.6rem;
     }
   }
 }
@@ -59,9 +64,9 @@ h2 {
   font-weight: 300;
 
   @include mq-medium {
-    display: block;
-    margin-top: 12px;
-    font-size: 1.3em;
+    // display: block;
+    margin-top: .4em;
+    font-size: 1em;
   }
 }
 
@@ -69,21 +74,22 @@ nav {
   position: fixed;
   top: -1px;
   right: -100%;
+  bottom: -1px;
   width: 100%;
-  height: 100%;
-  transition: transform .2s;
-  background-color: $bg-secondary;
+  transition: transform .3s;
+  background-color: $bg-secondary-dark;
   overflow: hidden;
   z-index: $z-top;
+  text-align: right;
 
   @include mq-medium {
     position: sticky;
     width: auto;
     height: auto;
-    margin: 1rem 0 -.5rem;
-    background-color: $bg-primary;
+    background-color: transparentize($bg-primary, .05);
     transform: translateX(0);
     overflow: visible;
+    text-align: left;
   }
 
   &.active {
@@ -92,50 +98,61 @@ nav {
     @include mq-medium {
       transform: translateX(0);
     }
-
-    &>ul {
-      transform: translateX(100%);
-
-      @include mq-medium {
-        transform: translateX(0);
-      }
-    }
   }
 
   ul {
     @include mq-medium {
-      background-color: $bg-primary;
-      transition: visibility .2s, opacity .2s, transform .2s, box-shadow .2s;
+      transition: visibility .2s, opacity .2s, transform .2s;
     }
   }
 
   &>ul {
     position: relative;
-    left: -100%;
-    transition: transform .2s;
+    margin-top: $header-height;
+    padding: $content-padding-smaller $content-padding-small;
     z-index: $z-top-top;
 
     @include mq-medium {
       display: flex;
       justify-content: center;
+      margin: 0;
+      padding: 0;
       left: auto;
+    }
+
+    &>li {
+      padding: 10px 0;
+
+      &:nth-of-type(3) {
+        display: block;
+      }
+
+      @include mq-medium {
+        padding: 0;
+      }
     }
   }
 
   li>ul {
+    display: inline-block;
+    opacity: .6;
+
     @include mq-medium {
+      display: block;
       position: absolute;
+      margin-top: -.5em;
       margin-left: -.25em;
       padding: 0 .25em;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 15px rgba(0, 0, 0, 0.2);
       transform: translateY(-5px);
+      background-color: $bg-primary;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 15px rgba(0, 0, 0, 0.2);
       visibility: hidden;
       opacity: 0;
     }
 
     a {
       @include mq-medium {
-        padding: .75em 1em;
+        padding: .75em 1.5em;
       }
     }
 
@@ -153,13 +170,19 @@ nav {
   }
 
   li {
+    display: inline-block;
+
     @include mq-medium {
       position: relative;
     }
 
     &.active>a span {
-      border-color: $accent-primary;
-      color: $accent-primary;
+      border-color: $text-secondary;
+
+      @include mq-medium {
+        border-color: $accent-primary;
+        color: $accent-primary;
+      }
     }
   }
 
@@ -174,20 +197,24 @@ nav {
   }
 
   a {
-    display: block;
-    padding: 1em;
+    display: inline-block;
+    padding: .75em .4em;
     color: $text-secondary;
     font-family: "Merriweather", serif;
-    font-size: .9em;
+    font-size: .88em;
     white-space: nowrap;
+    float: right;
 
     @include mq-medium {
+      display: block;
+      padding: 1.5em;
+      float: none;
       color: $text-primary;
     }
 
     span {
-      padding: 4px 0;
-      border-bottom: solid 2px transparent;
+      padding: 5px 0;
+      border-bottom: solid .1em transparent;
       transition: color .2s;
     }
 

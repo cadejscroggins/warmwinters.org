@@ -1,5 +1,5 @@
 // base colors
-$white: #fff;
+$white: #fefefe;
 $off-black: #35383F;
 $blue: #95D0F2;
 $purple: #949cef;
@@ -8,6 +8,7 @@ $purple: #949cef;
 $bg-primary: $white;
 $bg-primary-off: darken($bg-primary, 3%);
 $bg-secondary: $off-black;
+$bg-secondary-dark: darken($bg-secondary, 5%);
 $text-primary: $off-black;
 $text-secondary: $white;
 $accent-primary: $blue;
@@ -15,7 +16,8 @@ $accent-secondary: $purple;
 
 // boxes
 $border-radius: 0;
-$content-width: 1100px;
+$content-width: 1250px;
+$content-padding-medium: 2rem;
 $content-padding-small: 1.2rem;
 $content-padding-smaller: $content-padding-small / 1.4;
 $header-icon-height: 2rem;

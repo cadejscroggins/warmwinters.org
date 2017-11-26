@@ -26,6 +26,7 @@ InstantClick.on('change', () => {
 
   toggle.addEventListener('click', () => {
     nav.classList.toggle('active');
+    document.body.classList.toggle('noscroll');
     if (nav.classList.contains('active')) toggle.src = '/img/close.svg';
     else toggle.src = '/img/menu.svg';
   });

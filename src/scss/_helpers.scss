@@ -1,0 +1,10 @@
+@import "variables";
+@import "mixins";
+
+.noscroll {
+	overflow: hidden;
+
+  @include mq-medium {
+		overflow: auto;
+  }
+}

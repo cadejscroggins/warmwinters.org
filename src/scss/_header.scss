@@ -61,43 +61,43 @@ h1 {
 
 h2 {
   display: none;
-  font-weight: 300;
 
   @include mq-medium {
-    // display: block;
-    margin-top: .4em;
-    font-size: 1em;
+    //display: block;
+    margin-top: -.4em;
+    font-size: 1.1em;
+    font-weight: 300;
   }
 }
 
 nav {
   position: fixed;
-  top: -1px;
-  right: -100%;
-  bottom: -1px;
+  top: 0;
   width: 100%;
-  transition: transform .3s;
+  height: 100%;
   background-color: $bg-secondary-dark;
-  overflow: hidden;
+  transform: translateX(100vw);
+  transition: transform .2s;
+  overflow: auto;
   z-index: $z-top;
-  text-align: right;
+  text-align: center;
+
+  &.active {
+    transform: translateX(0);
+  }
+
+  @include mq-small {
+    text-align: left;
+  }
 
   @include mq-medium {
     position: sticky;
+    top: -1px;
     width: auto;
     height: auto;
     background-color: transparentize($bg-primary, .05);
     transform: translateX(0);
     overflow: visible;
-    text-align: left;
-  }
-
-  &.active {
-    transform: translateX(-100%);
-
-    @include mq-medium {
-      transform: translateX(0);
-    }
   }
 
   ul {
@@ -108,20 +108,17 @@ nav {
 
   &>ul {
     position: relative;
-    margin-top: $header-height;
-    padding: $content-padding-smaller $content-padding-small;
+    padding: $content-padding-large $content-padding-small;
     z-index: $z-top-top;
 
     @include mq-medium {
       display: flex;
       justify-content: center;
-      margin: 0;
       padding: 0;
-      left: auto;
     }
 
     &>li {
-      padding: 10px 0;
+      padding: 20px 0;
 
       &:nth-of-type(3) {
         display: block;
@@ -173,6 +170,7 @@ nav {
     display: inline-block;
 
     @include mq-medium {
+      display: block;
       position: relative;
     }
 
@@ -197,18 +195,19 @@ nav {
   }
 
   a {
-    display: inline-block;
+    display: block;
     padding: .75em .4em;
     color: $text-secondary;
     font-family: "Merriweather", serif;
-    font-size: .88em;
+    font-size: 1.1em;
     white-space: nowrap;
-    float: right;
+
+    @include mq-small {
+      font-size: 1em;
+    }
 
     @include mq-medium {
-      display: block;
       padding: 1.5em;
-      float: none;
       color: $text-primary;
     }
 

@@ -4,7 +4,7 @@
 html {
   background-color: $bg-primary;
   color: $text-primary;
-  font-family: "Merriweather", serif;
+  font-family: $font-primary;
   font-size: 4vw;
 
   @include mq-small {
@@ -31,7 +31,6 @@ body {
 a {
   color: $text-primary;
   text-decoration: none;
-  transition: color .2s, border-color .2s, background-color .2s, transform .2s;
 }
 
 input {
@@ -40,36 +39,48 @@ input {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 700;
+  font-family: $font-primary;
+  font-weight: $font-weight-bold;
   letter-spacing: .02em;
-  text-align: center;
 }
 
 h3 {
   position: relative;
-  font-size: 1.3em;
-  text-align: center;
+  font-size: 1.5em;
   text-transform: uppercase;
+
+  @include mq-small {
+    text-align: center;
+  }
 }
 
 p {
   margin: 0;
+  font-family: $font-secondary;
+  font-size: 1.1em;
 }
 
 section {
   max-width: $content-width;
   margin: 0 auto;
-  padding: $vertical-padding-large $content-padding-small;
+  padding: $padding-larger $padding-medium;
   box-sizing: border-box;
 
+  @include mq-medium {
+    padding: $padding-largest;
+  }
+
   p {
-    margin-top: $vertical-padding-smaller;
     line-height: 2em;
   }
+}
+
+figure {
+  margin: 0;
 }
 
 ul {

@@ -2,37 +2,46 @@
 $white: #fefefe;
 $off-black: #35383F;
 $blue: #95D0F2;
+$dark-blue: #31425A;
 $purple: #949cef;
 
 // theme colors
 $bg-primary: $white;
-$bg-primary-off: darken($bg-primary, 3%);
+$bg-primary-dark: darken($bg-primary, 5%);
 $bg-secondary: $off-black;
 $bg-secondary-dark: darken($bg-secondary, 5%);
 $text-primary: $off-black;
 $text-secondary: $white;
 $accent-primary: $blue;
-$accent-secondary: $purple;
+$accent-primary-dark: darken($blue, 5%);
+$accent-primary-darker: darken($blue, 10%);
+$accent-secondary: $dark-blue;
+
+// fonts
+$font-primary: "Josefin Sans", sans-serif;
+$font-secondary: "Merriweather", serif;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
 
 // boxes
-$border-radius: 0;
-$content-width: 1250px;
-$content-padding-large: 3rem;
-$content-padding-medium: 2rem;
-$content-padding-small: 1.2rem;
-$content-padding-smaller: $content-padding-small / 1.4;
+$padding-medium: 2rem;
+$padding-small: $padding-medium * .5;
+$padding-smaller: $padding-small * .5;
+$padding-smallest: $padding-smaller * .5;
+$padding-large: $padding-medium * 1.5;
+$padding-larger: $padding-large * 1.5;
+$padding-largest: $padding-larger * 1.5;
 $header-icon-height: 2rem;
-$header-height: $content-padding-smaller * 2 + $header-icon-height;
-$horizontal-padding-large: 4rem;
-$vertical-padding-large: 5.5rem;
-$vertical-padding-small: 2.5rem;
-$vertical-padding-smaller: 1.5rem;
+$header-height: $padding-medium + $header-icon-height;
+
+// layers
 $z-middle: 500;
 $z-middle-top: 750;
 $z-top: 999;
 $z-top-top: 1000;
 
 // media queries
+$content-width: 1250px;
 $mq-small: 500px;
 $mq-medium: 900px;
 $mq-large: $content-width;

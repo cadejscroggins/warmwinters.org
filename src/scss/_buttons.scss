@@ -2,13 +2,31 @@
 
 .button {
   display: inline-block;
-  margin-top: $vertical-padding-smaller;
   padding: 1em 2em;
   background-color: $bg-secondary;
+  transition: background-color .2s;
   color: $text-secondary;
-  font-size: 1em;
+  font-size: 1.2em;
 
   &:hover {
     background-color: $bg-secondary-dark;
+  }
+
+  &.button-secondary {
+    background-color: $bg-primary;
+    color: $text-primary;
+
+    &:hover {
+      background-color: $bg-primary-dark;
+    }
+  }
+
+  &.button-accent {
+    background-color: $accent-primary-dark;
+    color: $text-secondary;
+
+    &:hover {
+      background-color: $accent-primary-darker;
+    }
   }
 }

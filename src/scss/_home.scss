@@ -3,34 +3,27 @@
 
 .hero {
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
-  margin-top: 0;
-  padding-top: $vertical-padding-large * .7;
-  padding-bottom: $vertical-padding-large * .7;
-  background: url("img/concrete-bed.jpg") no-repeat center center;
-  background-color: $bg-secondary;
+  background: url("img/concrete-bed.jpg") no-repeat center left;
   background-size: cover;
-  text-align: center;
+  background-color: $bg-secondary;
 
   @include mq-small {
-    padding-top: $vertical-padding-large;
-    padding-bottom: $vertical-padding-large;
+    text-align: center;
+    justify-content: center;
   }
 
   @include mq-medium {
-    height: 26rem;
-    margin-top: $vertical-padding-smaller;
+    background-position: center;
   }
 
   p {
-    margin: 0;
     color: $white;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: $font-primary;
     font-size: 2.2em;
-    font-weight: 700;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: $font-weight-bold;
     line-height: 1.4em;
 
     @include mq-small {
@@ -41,13 +34,29 @@
       font-size: 3em;
     }
   }
+
+  a {
+    margin-top: $padding-large;
+
+    &:last-of-type {
+      margin-left: $padding-small;
+
+      @include mq-small {
+        margin-left: $padding-medium;
+      }
+    }
+  }
 }
 
 .intro {
-  background-color: $bg-primary-off;
-  text-align: center;
+  background-color: $bg-primary-dark;
+
+  @include mq-small {
+    text-align: center;
+  }
 
   p {
+    margin: $padding-medium 0;
     font-size: .9em;
 
     @include mq-small {
@@ -55,14 +64,70 @@
     }
 
     @include mq-medium {
-      padding: $content-padding-smaller $content-padding-smaller * 3;
-      font-size: 1.6em;
+      font-size: 1.5em;
     }
   }
 }
 
 .impact {
+  background: url("img/mountain.jpg") no-repeat center center;
+  background-size: cover;
   background-color: $bg-secondary;
   color: $text-secondary;
-  text-align: center;
+
+  @include mq-small {
+    text-align: center;
+  }
+
+  div {
+    @include mq-small {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    @include mq-medium {
+      justify-content: space-between;
+    }
+  }
+
+  a {
+    display: block;
+    margin-top: $padding-large;
+    color: inherit;
+
+    @include mq-small {
+      width: 50%;
+    }
+
+    @include mq-medium {
+      width: auto;
+
+      &:nth-of-type(2) {
+        order: 3;
+      }
+    }
+  }
+
+  svg {
+    width: 3em;
+    height: 3em;
+  }
+
+  h4 {
+    margin: $padding-small 0 $padding-smaller;
+    font-size: 2.4em;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.stay-in-touch {
+  background-color: $bg-primary-dark;
+
+  @include mq-small {
+    text-align: center;
+  }
 }

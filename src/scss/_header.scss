@@ -3,7 +3,7 @@
 
 header {
   @include mq-medium {
-    padding-top: $vertical-padding-small;
+    padding-top: $padding-small;
   }
 }
 
@@ -12,24 +12,21 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
-  padding: $content-padding-smaller $content-padding-small;
+  padding: $padding-small $padding-medium;
   background-color: $bg-primary;
   z-index: $z-middle-top;
 
   @include mq-medium {
     position: relative;
-    padding: 0;
+    padding: $padding-small 0 0;
     background-color: inherit;
+    text-align: center;
   }
 
   a {
     display: block;
     width: auto;
     text-transform: uppercase;
-
-    @include mq-medium {
-      display: inline-block;
-    }
   }
 
   img {
@@ -41,7 +38,7 @@ h1 {
     }
 
     @include mq-medium {
-      height: 2.6rem;
+      height: 2.4rem;
     }
   }
 }
@@ -51,7 +48,7 @@ h1 {
   top: 0;
   right: 0;
   height: $header-icon-height;
-  padding: $content-padding-smaller $content-padding-small;
+  padding: $padding-small $padding-medium;
   z-index: $z-top-top;
 
   @include mq-medium {
@@ -63,7 +60,7 @@ h2 {
   display: none;
 
   @include mq-medium {
-    //display: block;
+    // display: block;
     margin-top: -.4em;
     font-size: 1.1em;
     font-weight: 300;
@@ -76,14 +73,16 @@ nav {
   width: 100%;
   height: 100%;
   background-color: $bg-secondary-dark;
-  transform: translateX(100vw);
-  transition: transform .2s;
+  transition: visibility .1s, opacity .1s;
+  visibility: hidden;
+  opacity: 0;
   overflow: auto;
   z-index: $z-top;
   text-align: center;
 
   &.active {
-    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
   }
 
   @include mq-small {
@@ -95,8 +94,11 @@ nav {
     top: -1px;
     width: auto;
     height: auto;
-    background-color: transparentize($bg-primary, .05);
-    transform: translateX(0);
+    margin-bottom: $padding-small;
+    background-color: $bg-primary;
+    transition: none;
+    visibility: visible;
+    opacity: 1;
     overflow: visible;
   }
 
@@ -108,7 +110,7 @@ nav {
 
   &>ul {
     position: relative;
-    padding: $content-padding-large $content-padding-small;
+    padding: $padding-medium $padding-small;
     z-index: $z-top-top;
 
     @include mq-medium {
@@ -198,12 +200,11 @@ nav {
     display: block;
     padding: .75em .4em;
     color: $text-secondary;
-    font-family: "Merriweather", serif;
     font-size: 1.1em;
     white-space: nowrap;
 
-    @include mq-small {
-      font-size: 1em;
+    &:hover {
+      color: $accent-primary;
     }
 
     @include mq-medium {
@@ -213,12 +214,7 @@ nav {
 
     span {
       padding: 5px 0;
-      border-bottom: solid .1em transparent;
-      transition: color .2s;
-    }
-
-    &:hover span {
-      color: $accent-primary;
+      border-bottom: solid 2px transparent;
     }
   }
 }

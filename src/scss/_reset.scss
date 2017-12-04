@@ -21,10 +21,11 @@ html {
 }
 
 body {
-  margin: $header-height 0 0;
+  margin: 0;
+  padding: $header-height 0 0;
 
   @include mq-medium {
-    margin: 0;
+    padding: 0;
   }
 }
 

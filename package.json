@@ -2,14 +2,22 @@
   "name": "warmwinters.org",
   "private": true,
   "scripts": {
-    "start": "run-p watch-hugo watch-js watch-sass",
-    "watch-hugo": "hugo serve",
-    "watch-js": "babel src/js/main.js --watch --out-file build/bundle.js",
-    "watch-sass": "node-sass -w --output-style compressed --include-path src/scss src/scss/main.scss build/bundle.css"
+    "start": "run-p watch:hugo watch:js watch:sass",
+    "watch:hugo": "hugo serve",
+    "watch:js": "babel src/js/main.js --watch --out-file build/bundle.js",
+    "watch:sass": "node-sass -w --include-path src/scss src/scss/main.scss build/bundle.css",
+    "build": "run-s build:sass build:css build:hugo",
+    "build:sass": "node-sass --include-path src/scss src/scss/main.scss build/bundle.css",
+    "build:css": "postcss build/bundle.css --map --use autoprefixer --use cssnano --use css-mqpacker -o build/bundle.css",
+    "build:hugo": "hugo"
   },
   "devDependencies": {
+    "autoprefixer": "^7.2.0",
     "babel-cli": "^6.26.0",
+    "css-mqpacker": "^6.0.1",
+    "cssnano": "^3.10.0",
     "node-sass": "^4.5.3",
-    "npm-run-all": "^4.1.1"
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
   }
 }

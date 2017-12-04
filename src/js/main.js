@@ -22,7 +22,9 @@ InstantClick.on('change', () => {
   feather.replace();
   document.addEventListener('mousemove', onMouseMove);
 
-  const toggle = document.querySelector('.js-nav-toggle');
+  Stickyfill.add(document.querySelector('nav'));
+
+	const toggle = document.querySelector('.js-nav-toggle');
   const nav = document.querySelector('nav');
 
   toggle.addEventListener('click', () => {

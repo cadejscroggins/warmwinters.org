@@ -57,10 +57,10 @@
 
   p {
     margin: $padding-medium 0;
-    font-size: .9em;
+    font-size: .95em;
 
     @include mq-small {
-      font-size: 1.1em;
+      font-size: 1em;
     }
 
     @include mq-medium {
@@ -117,10 +117,6 @@
   h4 {
     margin: $padding-small 0 $padding-smaller;
     font-size: 2.4em;
-  }
-
-  p {
-    margin: 0;
   }
 }
 

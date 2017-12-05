@@ -104,7 +104,7 @@ nav {
 
   ul {
     @include mq-medium {
-      transition: visibility .2s, opacity .2s, transform .2s;
+      transition: visibility .3s, opacity .3s, transform .3s;
     }
   }
 
@@ -199,6 +199,7 @@ nav {
   a {
     display: block;
     padding: .75em .4em;
+    transition: color .2s;
     color: $text-secondary;
     font-size: 1.1em;
     white-space: nowrap;

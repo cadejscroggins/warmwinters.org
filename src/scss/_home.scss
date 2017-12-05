@@ -2,9 +2,6 @@
 @import "mixins";
 
 .hero {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
   width: 100%;
   background: url("img/concrete-bed.jpg") no-repeat center left;
   background-size: cover;
@@ -12,7 +9,6 @@
 
   @include mq-small {
     text-align: center;
-    justify-content: center;
   }
 
   @include mq-medium {
@@ -36,13 +32,13 @@
   }
 
   a {
-    margin-top: $padding-large;
+    margin-top: $padding-medium;
 
-    &:last-of-type {
-      margin-left: $padding-small;
+    &:first-of-type {
+      margin-right: $padding-small;
 
       @include mq-small {
-        margin-left: $padding-medium;
+        margin-right: $padding-medium;
       }
     }
   }
@@ -120,7 +116,7 @@
   }
 }
 
-.stay-in-touch {
+.stay-updated {
   background-color: $bg-primary-dark;
 
   @include mq-small {

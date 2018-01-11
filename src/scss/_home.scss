@@ -98,10 +98,6 @@
 
     @include mq-medium {
       width: auto;
-
-      &:nth-of-type(2) {
-        order: 3;
-      }
     }
   }
 

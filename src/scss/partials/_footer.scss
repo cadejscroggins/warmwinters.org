@@ -2,7 +2,6 @@
 @import "mixins";
 
 footer {
-  margin-top: $padding-largest;
   background-color: $bg-secondary;
   color: $text-secondary;
   line-height: 1.8em;
@@ -21,32 +20,26 @@ footer {
     padding-bottom: $padding-large;
   }
 
-  ul {
+  div {
     margin-bottom: $padding-medium;
 
     &:last-of-type {
+      display: flex;
+      width: 100%;
+
       @include mq-small {
-        width: 100%;
-        text-align: center;
+        justify-content: center;
       }
 
       @include mq-medium {
+        display: block;
         width: auto;
-        text-align: left;
       }
 
-      li {
-        display: flex;
+      a {
+        opacity: 1;
 
-        @include mq-small {
-          justify-content: center;
-        }
-
-        @include mq-medium {
-          display: block;
-        }
-
-        a:first-of-type {
+        &:first-of-type {
           margin-right: $padding-small;
         }
       }
@@ -57,17 +50,14 @@ footer {
     }
   }
 
-  li {
+  a {
+    display: block;
+    color: inherit;
     opacity: .6;
 
     &:first-of-type {
       opacity: 1;
     }
-  }
-
-  a {
-    display: block;
-    color: inherit;
 
     &:hover {
       text-decoration: underline;

@@ -113,8 +113,6 @@
 }
 
 .stay-updated {
-  background-color: $bg-primary-dark;
-
   @include mq-small {
     text-align: center;
   }

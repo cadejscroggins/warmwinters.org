@@ -12,7 +12,7 @@
     "build:hugo": "hugo"
   },
   "devDependencies": {
-    "autoprefixer": "^7.2.4",
+    "autoprefixer": "^7.2.5",
     "babel-cli": "^6.26.0",
     "css-mqpacker": "^6.0.1",
     "cssnano": "^3.10.0",

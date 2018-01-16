@@ -15,11 +15,11 @@
             {{ end }}
           </ul>
         </li>
-      {{else}}
+      {{ else }}
         <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
           <a href="{{ .URL }}"><span>{{ .Name }}</span></a>
         </li>
-      {{end}}
-    {{end}}
+      {{ end }}
+    {{ end }}
   </ul>
 </nav>

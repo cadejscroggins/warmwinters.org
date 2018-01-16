@@ -5,5 +5,5 @@ menu:
   main:
     parent: "our-story"
     name: "Press"
-    weight: -75
+    weight: -70
 ---

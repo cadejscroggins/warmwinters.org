@@ -5,5 +5,5 @@ menu:
   main:
     parent: "our-story"
     name: "Annual Reports"
-    weight: -70
+    weight: -75
 ---

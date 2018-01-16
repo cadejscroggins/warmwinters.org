@@ -24,7 +24,7 @@ InstantClick.on('change', () => {
 
   Stickyfill.add(document.querySelector('nav'));
 
-	const toggle = document.querySelector('.js-nav-toggle');
+  const toggle = document.querySelector('.js-nav-toggle');
   const nav = document.querySelector('nav');
 
   toggle.addEventListener('click', () => {

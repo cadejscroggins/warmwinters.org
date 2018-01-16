@@ -1,0 +1,155 @@
+@import "variables";
+@import "mixins";
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $bg-secondary-dark;
+  transition: visibility .1s, opacity .1s;
+  visibility: hidden;
+  opacity: 0;
+  overflow: auto;
+  z-index: $z-top;
+  text-align: center;
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  @include mq-small {
+    text-align: left;
+  }
+
+  @include mq-medium {
+    position: sticky;
+    top: -1px;
+    width: auto;
+    height: auto;
+    margin-bottom: $padding-small;
+    background-color: $bg-primary;
+    transition: none;
+    visibility: visible;
+    opacity: 1;
+    overflow: visible;
+  }
+
+  ul {
+    @include mq-medium {
+      transition: visibility .3s, opacity .3s, transform .3s;
+    }
+  }
+
+  &>ul {
+    position: relative;
+    padding: $padding-medium $padding-small;
+    z-index: $z-top-top;
+
+    @include mq-medium {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+
+    &>li {
+      padding: 20px 0;
+
+      &:nth-of-type(3) {
+        display: block;
+      }
+
+      @include mq-medium {
+        padding: 0;
+      }
+    }
+  }
+
+  li>ul {
+    display: inline-block;
+    opacity: .6;
+
+    @include mq-medium {
+      display: block;
+      position: absolute;
+      margin-top: -.5em;
+      margin-left: -.25em;
+      padding: 0 .25em;
+      transform: translateY(-5px);
+      background-color: $bg-primary;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 15px rgba(0, 0, 0, 0.2);
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    a {
+      @include mq-medium {
+        padding: .75em 1.5em;
+      }
+    }
+
+    li:first-of-type a {
+      @include mq-medium {
+        padding-top: 1.25em;
+      }
+    }
+
+    li:last-of-type a {
+      @include mq-medium {
+        padding-bottom: 1.25em;
+      }
+    }
+  }
+
+  li {
+    display: inline-block;
+
+    @include mq-medium {
+      display: block;
+      position: relative;
+    }
+
+    &.active>a span {
+      border-color: $text-secondary;
+
+      @include mq-medium {
+        border-color: $accent-primary;
+        color: $accent-primary;
+      }
+    }
+  }
+
+  &.hover li:hover {
+    ul {
+      @include mq-medium {
+        transform: translateY(0);
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+  a {
+    display: block;
+    padding: .75em .4em;
+    transition: color .2s;
+    color: $text-secondary;
+    font-size: 1.1em;
+    white-space: nowrap;
+
+    &:hover {
+      color: $accent-primary;
+    }
+
+    @include mq-medium {
+      padding: 1.5em;
+      color: $text-primary;
+    }
+
+    span {
+      padding: 5px 0;
+      border-bottom: solid 2px transparent;
+    }
+  }
+}

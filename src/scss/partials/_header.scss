@@ -47,9 +47,13 @@ h1 {
   position: fixed;
   top: 0;
   right: 0;
-  height: $header-icon-height;
   padding: $padding-small $padding-medium;
   z-index: $z-top-top;
+
+  img {
+    display: block;
+    height: $header-icon-height;
+  }
 
   @include mq-medium {
     display: none;

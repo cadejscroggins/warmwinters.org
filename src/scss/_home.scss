@@ -6,10 +6,7 @@
   background: url("img/concrete-bed.jpg") no-repeat center left;
   background-size: cover;
   background-color: $bg-secondary;
-
-  @include mq-small {
-    text-align: center;
-  }
+  text-align: center;
 
   @include mq-medium {
     background-position: center;
@@ -27,6 +24,10 @@
     }
 
     @include mq-medium {
+      font-size: 2.75em;
+    }
+
+    @include mq-large {
       font-size: 3em;
     }
   }
@@ -46,17 +47,14 @@
 
 .intro {
   background-color: $bg-primary-dark;
-
-  @include mq-small {
-    text-align: center;
-  }
+  text-align: center;
 
   p {
     margin: $padding-medium 0;
-    font-size: .95em;
+    text-align: left;
 
     @include mq-small {
-      font-size: 1em;
+      text-align: center;
     }
 
     @include mq-medium {
@@ -70,10 +68,7 @@
   background-size: cover;
   background-color: $bg-secondary;
   color: $text-secondary;
-
-  @include mq-small {
-    text-align: center;
-  }
+  text-align: center;
 
   div {
     @include mq-small {
@@ -114,7 +109,84 @@
 }
 
 .stay-updated {
+  text-align: center;
+
+  input {
+    display: block;
+    width: 100%;
+  }
+
+  form,
+  ul {
+    margin-top: $padding-large;
+  }
+
+  form {
+    max-width: 32rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    @include mq-small {
+      display: flex;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+
+    @include mq-small {
+      justify-content: center;
+    }
+  }
+
+  li {
+    text-align: center;
+
+    @include mq-small {
+      margin: 0 $padding-small;
+    }
+  }
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  svg {
+    display: block;
+    width: 1.3em;
+    height: 1.3em;
+    margin: 0 auto $padding-smaller;
+    vertical-align: text-bottom;
+
+    @include mq-small {
+      display: inline;
+      margin-right: $padding-smaller;
+      margin-bottom: 0;
+    }
+  }
+
+  .text-input {
+    text-align: center;
+
+    @include mq-small {
+      border-right: none;
+    }
+  }
+
+  .button {
+    margin-top: $padding-small;
+
+    @include mq-small {
+      width: auto;
+      margin: 0;
+    }
+  }
+
   @include mq-small {
     text-align: center;
   }
 }
+

@@ -1,6 +1,10 @@
 @import "variables";
 @import "mixins";
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   background-color: $bg-primary;
   color: $text-primary;
@@ -34,8 +38,18 @@ a {
   text-decoration: none;
 }
 
-input {
+input,
+input[type="submit"],
+button {
   outline: none;
+  appearance: none;
+  border: none;
+  font-family: $font-primary;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
 }
 
 h1,
@@ -43,7 +57,6 @@ h2,
 h3,
 h4 {
   margin: 0;
-  box-sizing: border-box;
   font-family: $font-primary;
   font-weight: $font-weight-bold;
   letter-spacing: .02em;
@@ -52,6 +65,7 @@ h4 {
 h3 {
   position: relative;
   font-size: 1.5em;
+  line-height: .5em;
   text-transform: uppercase;
 
   @include mq-small {
@@ -69,7 +83,6 @@ section {
   max-width: $content-width;
   margin: 0 auto;
   padding: $padding-larger $padding-medium;
-  box-sizing: border-box;
 
   @include mq-medium {
     padding: $padding-largest;

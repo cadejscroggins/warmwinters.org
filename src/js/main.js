@@ -25,13 +25,14 @@ InstantClick.on('change', () => {
   Stickyfill.add(document.querySelector('nav'));
 
   const toggle = document.querySelector('.js-nav-toggle');
+  const toggleImg = toggle.querySelector('img');
   const nav = document.querySelector('nav');
 
   toggle.addEventListener('click', () => {
     nav.classList.toggle('active');
     document.body.classList.toggle('noscroll');
-    if (nav.classList.contains('active')) toggle.src = '/img/close.svg';
-    else toggle.src = '/img/menu.svg';
+    if (nav.classList.contains('active')) toggleImg.src = '/img/close.svg';
+    else toggleImg.src = '/img/menu.svg';
   });
 });
  

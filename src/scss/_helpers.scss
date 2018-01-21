@@ -2,9 +2,9 @@
 @import "mixins";
 
 .noscroll {
-	overflow: hidden;
+  overflow: hidden;
 
   @include mq-medium {
-		overflow: auto;
+    overflow: auto;
   }
 }

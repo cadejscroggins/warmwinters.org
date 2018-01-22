@@ -1,11 +1,12 @@
 @import "./reset";
-
 @import "./helpers";
-@import "./buttons";
-@import "./inputs";
+
+@import "./components/buttons";
+@import "./components/inputs";
 
 @import "./partials/footer";
 @import "./partials/header";
 @import "./partials/nav";
 
-@import "./home";
+@import "./pages/home";
+@import "./pages/single";

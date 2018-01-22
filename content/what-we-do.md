@@ -8,22 +8,22 @@ menu:
     weight: -100
 ---
 
-<span>What We Do</span>
+<h3><span>What We Do</span></h3>
 
-We strive to improve the health and well-being of people in America who are experiencing homelessness by providing the clothing and personal care products they need most. This enables them to focus more on overcoming homelessness and less on staying warm and healthy.
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-<div>
+<div class="what-we-do-links">
   <a href="/ski-resort-program/">
-    <img src="http://placekitten.com/g/200/200">
-    <span>Ski Resort Program</span>
+    <img src="https://images.unsplash.com/photo-1510860933079-0d4aa3d081bb?auto=format&crop=entropy&cs=tinysrgb&w=900&h=600&fit=crop">
+    <h4><span>Ski Resort Program</span></h4>
   </a>
   <a href="/clothing-drives/">
-    <img src="http://placekitten.com/g/200/200">
-    <span>Clothing Drives</span>
+    <img src="https://images.unsplash.com/photo-1510672277783-ea03bdd8b602?auto=format&crop=entropy&cs=tinysrgb&w=900&h=600&fit=crop">
+    <h4><span>Clothing Drives</span></h4>
   </a>
   <a href="/personal-care-product-drives/">
-    <img src="http://placekitten.com/g/200/200">
-    <span>Personal Care Product Drives</span>
+    <img src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?auto=format&crop=entropy&cs=tinysrgb&w=900&h=600&fit=crop">
+    <h4><span>Personal Care Product Drives</span></h4>
   </a>
 </div>
 

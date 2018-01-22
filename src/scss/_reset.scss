@@ -55,7 +55,8 @@ button {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   margin: 0;
   font-family: $font-primary;
   font-weight: $font-weight-bold;
@@ -65,18 +66,39 @@ h4 {
 h3 {
   position: relative;
   font-size: 1.5em;
-  line-height: .5em;
   text-transform: uppercase;
+  letter-spacing: 1px;
 
   @include mq-small {
     text-align: center;
   }
 }
 
+h4 {
+  font-size: 1.4em;
+  line-height: 1.6em;
+
+  @include mq-small {
+    text-align: center;
+  }
+}
+
+h5 {
+  color: $accent-primary-darker;
+  font-size: .9em;
+  line-height: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 p {
   margin: 0;
   font-family: $font-secondary;
   font-size: 1.1em;
+}
+
+img {
+  display: block;
 }
 
 section {

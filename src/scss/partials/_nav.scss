@@ -118,6 +118,13 @@ nav {
         color: $accent-primary;
       }
     }
+
+    &.active-child>a span {
+      @include mq-medium {
+        border-color: $accent-primary;
+        color: $accent-primary;
+      }
+    }
   }
 
   &.hover li:hover {
@@ -149,7 +156,7 @@ nav {
 
     span {
       padding: 5px 0;
-      border-bottom: solid 2px transparent;
+      border-bottom: solid 3px transparent;
     }
   }
 }

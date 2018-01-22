@@ -1,13 +1,13 @@
 // base colors
 $white: #fefefe;
-$off-black: #25282F;
+$off-black: #35383F;
 $blue: #95D0F2;
 $dark-blue: #31425A;
 $purple: #949cef;
 
 // theme colors
 $bg-primary: $white;
-$bg-primary-dark: darken($bg-primary, 3%);
+$bg-primary-dark: darken($bg-primary, 2%);
 $bg-primary-darker: darken($bg-primary, 6%);
 $bg-primary-darkest: darken($bg-primary, 9%);
 $bg-secondary: $off-black;

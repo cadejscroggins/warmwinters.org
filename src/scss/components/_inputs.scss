@@ -9,6 +9,7 @@
   line-height: 3.6rem;
 
   &:focus {
+    border-color: $accent-primary;
     background-color: $white;
   }
 }

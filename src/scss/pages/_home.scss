@@ -87,7 +87,6 @@
 
     @include mq-medium {
       justify-content: space-between;
-      font-size: .9em;
     }
   }
 
@@ -113,6 +112,11 @@
   h4 {
     margin: $padding-small 0 $padding-smaller;
     font-size: 2.4em;
+  }
+
+  span {
+    font-size: 1.2em;
+    line-height: 1.6em;
   }
 }
 

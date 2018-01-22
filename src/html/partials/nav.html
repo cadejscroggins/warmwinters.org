@@ -4,7 +4,7 @@
 
     {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
-        <li class="{{ if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }}active{{ end }}">
+      <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active-child{{ end }}{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
           <a href="{{ .URL }}"><span>{{ .Name }}</span></a>
 
           <ul>

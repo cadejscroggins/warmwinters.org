@@ -1,0 +1,139 @@
+@import "variables";
+@import "mixins";
+
+.single-section {
+  border: solid 5px $bg-primary-darker;
+  border-style: solid none;
+  background-color: $bg-primary-dark;
+
+  @include mq-large {
+    margin-bottom: $padding-large;
+  }
+
+  h3 {
+    margin-bottom: $padding-large;
+    line-height: 1.6em;
+
+    span {
+      padding-bottom: $padding-smallest;
+      border-bottom: solid 4px $text-primary;
+    }
+  }
+
+  h4 {
+    margin-top: $padding-large;
+  }
+}
+
+.intro-text {
+  font-size: 1.3em;
+
+  @include mq-small {
+    text-align: center;
+  }
+}
+
+.what-we-do-links {
+  padding-top: $padding-large;
+
+  @include mq-small {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: $padding-large;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    @include mq-small {
+      margin: 0 $padding-medium 0 0;
+
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+  
+  h4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: $padding-small;
+    background-color: rgba(0, 0, 0, .5);
+    color: $white;
+    text-align: center;
+  }
+}
+
+.our-approach {
+  margin-top: $padding-medium;
+
+  h5 {
+    margin-top: $padding-medium;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  div {
+    @include mq-medium {
+      width: 50%;
+    }
+
+    &:first-of-type {
+      @include mq-medium {
+        order: 2;
+        margin-left: $padding-medium;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    margin-top: $padding-large;
+
+    @include mq-medium {
+      margin-top: 0;
+    }
+  }
+
+  @include mq-medium {
+    display: flex;
+  }
+}
+
+.big-stat {
+  margin-top: $padding-larger;
+
+  @include mq-medium {
+    margin-top: $padding-largest;
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  span {
+    display: block;
+    color: $accent-primary;
+    font-size: 4em;
+    line-height: 1em;
+  }
+}

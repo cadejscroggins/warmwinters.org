@@ -8,30 +8,27 @@ menu:
     weight: -100
 ---
 
-<h2>Ski Resort Drives</h2>
+<h3><span>Ski Resort Program</span></h3>
 
-We strive to improve the health and well-being of people in America who are experiencing homelessness by providing the clothing and personal care products they need most. This enables them to focus more on overcoming homelessness and less on staying warm and healthy.
+<p class="intro-text">Most ski resorts have a lost and found overflowing with warm clothing that frequently gets thrown out. We distribute these unclaimed clothes to keep our homeless community members warm and protected.</p>
 
-<div>
-  <h3>Our Approach</h3>
+<h4>Our Approach</h4>
+
+<div class="our-approach">
   <div>
-    <img src="http://placekitten.com/g/200/200">
-    <span>Identify Partner Ski Resorts</span>
-    <span>We partner with ski resorts who are commited to helping the homeless by donating their unclaimed lost and found.</span>
+    <h5>Identify Partner Ski Resorts</h5>
+    <p>We partner with ski resorts who are commited to helping the homeless by donating their unclaimed lost and found.</p>
+    <h5>Recruit Youth Leaders</h5>
+    <p>Our youth leaders are passionate about changing the world.</p>
+    <h5>Identify Local Homeless Shelters</h5>
+    <p>We work with homeless shelters who pass on 100% of our donations directly to homeless community members.</p>
   </div>
   <div>
-    <img src="http://placekitten.com/g/200/200">
-    <span>Recruit Youth Leaders</span>
-    <span>Our youth leaders are passionate about changing the world.</span>
-  </div>
-  <div>
-    <img src="http://placekitten.com/g/200/200">
-    <span>Identify Local Homeless Shelters</span>
-    <span>We work with homeless shelters who pass on 100% of our donations directly to homeless community members.</span>
+    <img src="https://images.unsplash.com/photo-1510860933079-0d4aa3d081bb?auto=format&crop=entropy&w=900&h=900&fit=crop" />
   </div>
 </div>
 
-<div>
-  <h3>38,000 Clothing Items Delivered</h3>
+<div class="big-stat">
+  <h4><span>38,000</span> Items of warm clothing delivered</h4>
 </div>
 

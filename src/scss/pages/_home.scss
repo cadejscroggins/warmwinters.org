@@ -87,10 +87,12 @@
   }
 
   div {
-    @include mq-small {
-      display: flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @include mq-medium {
       justify-content: center;
-      flex-wrap: wrap;
     }
 
     @include mq-medium {
@@ -103,12 +105,23 @@
     margin-top: $padding-large;
     color: inherit;
 
-    @include mq-small {
-      width: 50%;
+    &:nth-of-type(even) {
+      width: 43%;
     }
 
-    @include mq-medium {
-      width: auto;
+    &:nth-of-type(odd) {
+      width: 57%;
+    }
+
+    &:nth-of-type(even),
+    &:nth-of-type(odd) {
+      @include mq-small {
+        width: 50%;
+      }
+
+      @include mq-medium {
+        width: auto;
+      }
     }
   }
 
@@ -118,13 +131,24 @@
   }
 
   h4 {
-    margin: $padding-small 0 $padding-smaller;
-    font-size: 2.4em;
+    margin: $padding-smallest 0 $padding-smaller;
+    font-size: 1.7em;
+
+    @include mq-small {
+      font-size: 2.4em;
+    }
   }
 
   span {
-    font-size: 1.2em;
-    line-height: 1.6em;
+    display: block;
+    line-height: 1.4em;
+    font-size: 1rem;
+    font-weight: $font-weight-normal;
+    letter-spacing: 0;
+
+    @include mq-small {
+      font-size: 1.1rem;
+    }
   }
 }
 
@@ -163,8 +187,6 @@
   }
 
   li {
-    text-align: center;
-
     @include mq-small {
       margin: 0 $padding-small;
     }
@@ -177,17 +199,11 @@
   }
 
   svg {
-    display: block;
+    display: inline;
     width: 1.3em;
     height: 1.3em;
-    margin: 0 auto $padding-smaller;
+    margin-right: $padding-smaller;
     vertical-align: text-bottom;
-
-    @include mq-small {
-      display: inline;
-      margin-right: $padding-smaller;
-      margin-bottom: 0;
-    }
   }
 
   .text-input {

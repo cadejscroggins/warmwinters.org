@@ -9,8 +9,12 @@
   font-size: 1.2em;
   line-height: 3.6rem;
 
+  &:hover {
+    border-color: $bg-primary-hella-darker;
+  }
+
   &:focus {
-    border-color: $accent-primary;
+    border-color: $bg-secondary;
     background-color: $white;
   }
 }

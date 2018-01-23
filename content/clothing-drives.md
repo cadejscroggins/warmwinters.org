@@ -8,7 +8,7 @@ menu:
     weight: -90
 ---
 
-<h3><span>Clothing Drives</span></h3>
+<h3>Clothing Drives</h3>
 
 <p class="intro-text">Socks are the #1 most requested item at every
 homeless shelter, yet are the least donated item. Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labore et dolore.</p>

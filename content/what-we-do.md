@@ -8,22 +8,24 @@ menu:
     weight: -100
 ---
 
-<h3><span>What We Do</span></h3>
+<h3>What We Do</h3>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+<p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
 <div class="what-we-do-links">
-  <a href="/ski-resort-program/">
-    <img src="https://images.unsplash.com/photo-1510860933079-0d4aa3d081bb?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop">
+  <a href="/ski-resort-program/" style="background-image: url('https://images.unsplash.com/photo-1510860933079-0d4aa3d081bb?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop')">
     <h4><span>Ski Resort Program</span></h4>
   </a>
-  <a href="/clothing-drives/">
-    <img src="https://images.unsplash.com/photo-1510672277783-ea03bdd8b602?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop">
+  <a href="/clothing-drives/" style="background-image: url('https://images.unsplash.com/photo-1510672277783-ea03bdd8b602?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop')">
     <h4><span>Clothing Drives</span></h4>
   </a>
-  <a href="/personal-care-product-drives/">
-    <img src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop">
+  <a href="/personal-care-product-drives/" style="background-image: url('https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop')">
     <h4><span>Personal Care Product Drives</span></h4>
   </a>
 </div>
 
+<div class="big-stat">
+  <h4><span>34,000</span> Homeless community members helped</h4>
+</div>

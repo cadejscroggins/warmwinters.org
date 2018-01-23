@@ -8,9 +8,9 @@ menu:
     weight: -80
 ---
 
-<h3><span>Personal Care Product Drives</span></h3>
+<h3>Personal Care Product Drives</h3>
 
-<p class="intro-text">Our homeless community members live on the streets, without access to daily toiletries such as soap, shampoo, toothbrushes and feminine hygiene products.</p>
+<p class="intro-text">Our homeless community members live on the streets, without access to daily toiletries such as soap, shampoo, toothbrushes and feminine hygiene products. Lorem ipsum dolor set amet.</p>
 
 <h4>Our Approach</h4>
 

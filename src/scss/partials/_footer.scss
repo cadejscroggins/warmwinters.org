@@ -2,9 +2,8 @@
 @import "mixins";
 
 footer {
-  background-color: $bg-secondary;
-  color: $text-secondary;
-  line-height: 1.8em;
+  background-color: $bg-primary-dark;
+  line-height: 2em;
 }
 
 .footer__links {

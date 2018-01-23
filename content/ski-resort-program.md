@@ -8,7 +8,7 @@ menu:
     weight: -100
 ---
 
-<h3><span>Ski Resort Program</span></h3>
+<h3>Ski Resort Program</h3>
 
 <p class="intro-text">Most ski resorts have a lost and found overflowing with warm clothing that frequently gets thrown out. We distribute these unclaimed clothes to keep our homeless community members warm and protected.</p>
 

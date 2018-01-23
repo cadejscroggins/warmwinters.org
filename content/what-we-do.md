@@ -14,15 +14,15 @@ menu:
 
 <div class="what-we-do-links">
   <a href="/ski-resort-program/">
-    <img src="https://images.unsplash.com/photo-1510860933079-0d4aa3d081bb?auto=format&crop=entropy&cs=tinysrgb&w=900&h=600&fit=crop">
+    <img src="https://images.unsplash.com/photo-1510860933079-0d4aa3d081bb?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop">
     <h4><span>Ski Resort Program</span></h4>
   </a>
   <a href="/clothing-drives/">
-    <img src="https://images.unsplash.com/photo-1510672277783-ea03bdd8b602?auto=format&crop=entropy&cs=tinysrgb&w=900&h=600&fit=crop">
+    <img src="https://images.unsplash.com/photo-1510672277783-ea03bdd8b602?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop">
     <h4><span>Clothing Drives</span></h4>
   </a>
   <a href="/personal-care-product-drives/">
-    <img src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?auto=format&crop=entropy&cs=tinysrgb&w=900&h=600&fit=crop">
+    <img src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop">
     <h4><span>Personal Care Product Drives</span></h4>
   </a>
 </div>

@@ -8,6 +8,8 @@
 
   @include mq-large {
     margin-bottom: $padding-large;
+    border-style: solid;
+    border-radius: $border-radius;
   }
 
   h3 {
@@ -26,10 +28,13 @@
 }
 
 .intro-text {
-  font-size: 1.3em;
-
   @include mq-small {
+    font-size: 1.15em;
     text-align: center;
+  }
+
+  @include mq-medium {
+    font-size: 1.3em;
   }
 }
 
@@ -46,6 +51,8 @@
     position: relative;
     width: 100%;
     margin-top: $padding-large;
+    border-radius: $border-radius;
+    overflow: hidden;
 
     &:first-of-type {
       margin-top: 0;
@@ -74,7 +81,7 @@
     bottom: 0;
     left: 0;
     margin: 0;
-    padding: $padding-small;
+    padding: $padding-medium;
     background-color: rgba(0, 0, 0, .5);
     color: $white;
     text-align: center;
@@ -93,24 +100,27 @@
   }
 
   div {
-    @include mq-medium {
-      width: 50%;
-    }
-
     &:first-of-type {
       @include mq-medium {
         order: 2;
+        width: 50%;
         margin-left: $padding-medium;
       }
     }
-  }
 
-  img {
-    width: 100%;
-    margin-top: $padding-large;
+    &:last-of-type {
+      width: 100%;
+      height: 100vw;
+      margin-top: $padding-large;
+      border-radius: $border-radius;
+      background-size: cover;
+      background-position: center;
 
-    @include mq-medium {
-      margin-top: 0;
+      @include mq-medium {
+        width: 50%;
+        height: auto;
+        margin-top: 0;
+      }
     }
   }
 

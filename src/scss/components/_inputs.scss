@@ -2,7 +2,8 @@
 
 .text-input {
   padding: 0 1rem;
-  border: solid 1px $bg-primary-darkest;
+  border: solid 3px $bg-primary-darkest;
+  border-radius: $border-radius;
   background-color: $bg-primary-dark;
   transition: background-color .2s, border-color .2s;
   font-size: 1.2em;

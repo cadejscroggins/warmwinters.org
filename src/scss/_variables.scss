@@ -8,11 +8,12 @@ $purple: #949cef;
 // theme colors
 $bg-primary: $white;
 $bg-primary-dark: darken($bg-primary, 2%);
-$bg-primary-darker: darken($bg-primary, 6%);
-$bg-primary-darkest: darken($bg-primary, 9%);
+$bg-primary-darker: darken($bg-primary, 4%);
+$bg-primary-darkest: darken($bg-primary, 6%);
 $bg-secondary: $off-black;
 $bg-secondary-dark: darken($bg-secondary, 5%);
 $text-primary: $off-black;
+$text-primary-light: lighten($text-primary, 15%);
 $text-secondary: $white;
 $accent-primary: $blue;
 $accent-primary-dark: darken($blue, 5%);
@@ -35,6 +36,7 @@ $padding-larger: $padding-large * 1.5;
 $padding-largest: $padding-larger * 1.5;
 $header-icon-height: 1.7rem;
 $header-height: $padding-medium + $header-icon-height;
+$border-radius: 7px;
 
 // layers
 $z-middle: 500;

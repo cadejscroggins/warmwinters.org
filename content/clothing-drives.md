@@ -8,7 +8,7 @@ menu:
     weight: -90
 ---
 
-<h3>Clothing Drives</h3>
+<h3><span>Clothing Drives</span></h3>
 
 <p class="intro-text">Socks are the #1 most requested item at every
 homeless shelter, yet are the least donated item. Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labore et dolore.</p>
@@ -24,9 +24,7 @@ homeless shelter, yet are the least donated item. Labore et dolore magna aliqua.
     <h5>Deliver and Track</h5>
     <p>Our youth leaders deliver the clothing to local homeless shelters and track the results.</p>
   </div>
-  <div>
-    <img src="https://images.unsplash.com/photo-1510672277783-ea03bdd8b602?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop" />
-  </div>
+  <div style="background-image: url('https://images.unsplash.com/photo-1510672277783-ea03bdd8b602?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop')"></div>
 </div>
 
 <div class="big-stat">

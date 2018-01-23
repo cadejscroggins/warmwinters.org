@@ -3,6 +3,7 @@
 .button {
   display: inline-block;
   padding: 0 2.2rem;
+  border-radius: $border-radius;
   background-color: $bg-secondary;
   transition: background-color .2s;
   color: $text-secondary;

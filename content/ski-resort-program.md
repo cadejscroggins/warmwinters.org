@@ -23,9 +23,7 @@ menu:
     <h5>Identify Local Homeless Shelters</h5>
     <p>We work with homeless shelters who pass on 100% of our donations directly to homeless community members.</p>
   </div>
-  <div>
-    <img src="https://images.unsplash.com/photo-1510860933079-0d4aa3d081bb?auto=format&crop=entropy&w=900&h=900&fit=crop" />
-  </div>
+  <div style="background-image: url('https://images.unsplash.com/photo-1510860933079-0d4aa3d081bb?auto=format&crop=entropy&w=900&h=900&fit=crop')"></div>
 </div>
 
 <div class="big-stat">

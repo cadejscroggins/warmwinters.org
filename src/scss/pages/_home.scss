@@ -15,6 +15,10 @@
     background-position: center;
   }
 
+  @include mq-large {
+    border-radius: $border-radius $border-radius 0 0;
+  }
+
   p {
     color: $white;
     font-family: $font-primary;
@@ -76,6 +80,10 @@
 
   @include mq-small {
     text-align: center;
+  }
+
+  @include mq-large {
+    border-radius: 0 0 $border-radius $border-radius;
   }
 
   div {
@@ -187,6 +195,7 @@
 
     @include mq-small {
       border-right: none;
+      border-radius: $border-radius 0 0 $border-radius;
     }
   }
 
@@ -196,11 +205,8 @@
     @include mq-small {
       width: auto;
       margin: 0;
+      border-radius: 0 $border-radius $border-radius 0;
     }
-  }
-
-  @include mq-small {
-    text-align: center;
   }
 }
 

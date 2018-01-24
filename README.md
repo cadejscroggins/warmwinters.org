@@ -4,7 +4,7 @@ Source code for https://warmwinters.org.
 
 ## Development Setup
 
-Before doing anything else, make sure you have the following tools installed and set up:
+Before doing anything else, make sure you have the following tools installed:
 
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Node & NPM](https://nodejs.org/en/download/)
@@ -21,4 +21,4 @@ Then, do the following:
 
 ## License
 
-[MIT License](https://raw.githubusercontent.com/cadejscroggins/warmwinters.org/master/LICENSE.txt)
+[MIT](https://raw.githubusercontent.com/cadejscroggins/warmwinters.org/master/LICENSE.txt)

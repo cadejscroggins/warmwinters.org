@@ -21,3 +21,4 @@ Then, do the following:
 
 ## License
 
+[MIT License](https://raw.githubusercontent.com/cadejscroggins/warmwinters.org/master/LICENSE.txt)

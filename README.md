@@ -1,15 +1,23 @@
 # Warm Winters
 
-A description.
+Source code for https://warmwinters.org.
 
 ## Development Setup
 
-Some steps.
+Before doing anything else, make sure you have the following tools installed and set up:
 
-## Creating Content
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Node & NPM](https://nodejs.org/en/download/)
+* [Yarn](https://yarnpkg.com/lang/en/docs/install/)
+* [Hugo](https://gohugo.io/getting-started/installing/)
 
-Some steps.
+Then, do the following:
 
-### Emojis
+1. clone the repo: `git clone git@github.com:cadejscroggins/warmwinters.org.git`
+2. cd into it: `cd warmwinters.org`
+3. install dependencies: `yarn`
+4. build for the first time: `yarn build`
+5. serve and watch for changes: `yarn start`
 
-You can easily add emojis in the markdown files using the `:emoji:` syntax. See [this cheat sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/) for all of the emojis.
+## License
+

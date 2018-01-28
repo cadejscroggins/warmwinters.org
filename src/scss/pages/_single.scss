@@ -39,6 +39,10 @@
   }
 }
 
+.paragraph-figure {
+  margin: $padding-large 0;
+}
+
 .what-we-do-links {
   padding-top: $padding-large;
 
@@ -151,5 +155,83 @@
     color: $accent-primary;
     font-size: 4em;
     line-height: 1em;
+  }
+}
+
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  div {
+    width: 55%;
+    padding-top: $padding-medium;
+
+    @include mq-small {
+      width: 45%;
+      padding: $padding-large $padding-medium 0;
+    }
+
+    @include mq-medium {
+      width: 35%;
+    }
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: $padding-smaller;
+    border-radius: 50%;
+  }
+
+  span {
+    display: block;
+    font-size: .9em;
+    line-height: 1.2em;
+  }
+
+  .people__founder {
+    width: 75%;
+    padding-top: 0;
+
+    @include mq-small {
+      width: 55%;
+    }
+
+    @include mq-medium {
+      width: 45%;
+    }
+  }
+}
+
+.link-list-list {
+  margin-top: $padding-medium;
+  column-count: 4;
+
+  li {
+    break-inside: avoid-column;
+  }
+}
+
+.link-list {
+  li:last-of-type {
+    margin-bottom: $padding-small;
+  }
+
+  a {
+    display: block;
+    font-size: .9em;
+    line-height: 2em;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  svg {
+    position: relative;
+    top: -.15em;
+    width: .7em;
+    vertical-align: middle;
   }
 }

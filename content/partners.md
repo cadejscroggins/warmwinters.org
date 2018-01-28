@@ -101,7 +101,7 @@ menu:
     <h5>Washington</h5>
     <ul class="link-list">
       <li><a href="https://www.crystalmountainresort.com/" target="_blank">Crystal <i data-feather="external-link"></i></a></li>
-      <li><a href="http://www.summitatsnoqualmie.com/" target="_blank">Summit at Snoqualmie <i data-feather="external-link"></i></a></li>
+      <li><a href="http://www.summitatsnoqualmie.com/" target="_blank">Snoqualmie <i data-feather="external-link"></i></a></li>
       <li><a href="https://www.stevenspass.com/site/" target="_blank">Stevens Pass <i data-feather="external-link"></i></a></li>
     </ul>
   </li>

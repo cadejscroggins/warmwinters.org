@@ -30,7 +30,7 @@
 }
 
 .paragraph-text {
-  max-width: 37rem;
+  max-width: $text-width;
   margin: $padding-medium auto 0;
   color: $text-primary-light;
 
@@ -166,7 +166,7 @@
 
   div {
     width: 55%;
-    padding-top: $padding-medium;
+    padding-top: $padding-large;
 
     @include mq-small {
       width: 45%;
@@ -180,14 +180,14 @@
 
   img {
     width: 100%;
-    margin-bottom: $padding-smaller;
+    margin-bottom: $padding-small;
     border-radius: 50%;
   }
 
   span {
     display: block;
     font-size: .9em;
-    line-height: 1.2em;
+    line-height: 1.4em;
   }
 
   .people__founder {
@@ -205,8 +205,14 @@
 }
 
 .link-list-list {
-  margin-top: $padding-medium;
-  column-count: 4;
+  max-width: $text-width;
+  margin: $padding-medium auto 0;
+  column-count: 2;
+
+  @include mq-small {
+    column-count: 4;
+    column-gap: $padding-medium;
+  }
 
   li {
     break-inside: avoid-column;
@@ -220,7 +226,7 @@
 
   a {
     display: block;
-    font-size: .9em;
+    font-size: .8em;
     line-height: 2em;
 
     &:hover {

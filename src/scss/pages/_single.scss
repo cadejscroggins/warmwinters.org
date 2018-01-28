@@ -35,6 +35,7 @@
   color: $text-primary-light;
 
   @include mq-medium {
+    font-size: .9em;
     text-align: justify;
   }
 }

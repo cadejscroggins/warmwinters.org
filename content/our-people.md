@@ -14,8 +14,7 @@ menu:
   <div class="people__founder">
     <img src="/img/profiles/corinne.jpg">
     <h5>Corinne Hindes</h5>
-    <span>Founder &amp; CEO</span>
-    <span>President of the Board</span>
+    <span>President, Founder &amp; CEO</span>
   </div>
 </div>
 
@@ -55,12 +54,12 @@ menu:
   <div>
     <img src="/img/profiles/karl.jpg">
     <h5>Karl Robillard</h5>
-    <span>Communications &amp; Public Relations Senior Manager at St. Anthony Foundation</span>
+    <span>Communications &amp; Public Relations Manager at St. Anthony Foundation</span>
   </div>
   <div>
     <img src="/img/profiles/sam.jpg">
     <h5>Sam Beard</h5>
-    <span>Co-Founder &amp; President of the Jefferson Awards</span>
+    <span>President &amp; Co-Founder of the Jefferson Awards</span>
   </div>
   <div>
     <img src="/img/profiles/paul.jpg">

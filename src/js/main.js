@@ -20,9 +20,8 @@ function onMouseMove(e) {
 InstantClick.on('change', () => {
   // ga('send', 'pageview', location.pathname + location.search);
   feather.replace();
-  document.addEventListener('mousemove', onMouseMove);
-
   Stickyfill.add(document.querySelector('nav'));
+  document.addEventListener('mousemove', onMouseMove);
 
   const toggle = document.querySelector('.js-nav-toggle');
   const toggleImg = toggle.querySelector('img');
@@ -36,5 +35,5 @@ InstantClick.on('change', () => {
   });
 });
  
-InstantClick.init();
+InstantClick.init(75);
 

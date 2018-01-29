@@ -22,16 +22,17 @@
   p {
     color: $white;
     font-family: $font-primary;
-    font-size: 2.2em;
+    font-size: 1.8em;
     font-weight: $font-weight-bold;
     line-height: 1.4em;
 
     @include mq-small {
+      font-size: 2em;
       line-height: 1.5em;
     }
 
     @include mq-medium {
-      font-size: 2.75em;
+      font-size: 2.8em;
     }
 
     @include mq-large {
@@ -60,15 +61,7 @@
   }
 
   p {
-    margin: $padding-medium 0;
-
-    @include mq-small {
-      font-size: 1.15em;
-    }
-
-    @include mq-medium {
-      font-size: 1.55em;
-    }
+    margin-bottom: $padding-medium;
   }
 }
 
@@ -128,6 +121,11 @@
   svg {
     width: 3em;
     height: 3em;
+  }
+
+  h3,
+  h4 {
+    color: inherit;
   }
 
   h4 {

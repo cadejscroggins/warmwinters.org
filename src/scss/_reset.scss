@@ -20,7 +20,7 @@ html {
   }
 
   @include mq-large {
-    font-size: 19px;
+    font-size: 18px;
   }
 }
 
@@ -60,14 +60,16 @@ h3,
 h4,
 h5 {
   margin: 0;
-  font-family: $font-primary;
+  color: $black;
   font-weight: $font-weight-bold;
   letter-spacing: .02em;
 }
 
 h3 {
   position: relative;
-  font-size: 1.5em;
+  margin-bottom: $padding-medium - .4rem;
+  font-size: 1.7em;
+  line-height: 1.3em;
   text-transform: uppercase;
   letter-spacing: 1px;
 
@@ -87,15 +89,13 @@ h4 {
 
 h5 {
   font-size: .9em;
-  line-height: 2em;
+  line-height: 1.8em;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 p {
   margin: 0;
-  font-family: $font-secondary;
-  font-size: 1.1em;
 }
 
 img {
@@ -112,7 +112,7 @@ section {
   }
 
   p {
-    line-height: 2em;
+    line-height: 1.8em;
   }
 }
 
@@ -127,6 +127,7 @@ figure {
 
 figcaption {
   margin-top: $padding-small;
+  font-size: .8em;
   text-align: center;
 }
 

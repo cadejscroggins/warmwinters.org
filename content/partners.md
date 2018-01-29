@@ -86,6 +86,12 @@ menu:
     </ul>
   </li>
   <li>
+    <h5>Oregon</h5>
+    <ul class="link-list">
+      <li><a href="https://www.skihood.com/" target="_blank">Mt. Hood Meadows <i data-feather="external-link"></i></a></li>
+    </ul>
+  </li>
+  <li>
     <h5>Utah</h5>
     <ul class="link-list">
       <li><a href="https://www.snowbasin.com/" target="_blank">Snowbasin <i data-feather="external-link"></i></a></li>

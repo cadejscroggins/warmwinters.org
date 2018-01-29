@@ -1,4 +1,5 @@
 // base colors
+$black: #010101;
 $white: #fefefe;
 $off-black: #35383F;
 $blue: #95D0F2;
@@ -23,7 +24,6 @@ $accent-secondary: $dark-blue;
 
 // fonts
 $font-primary: "Josefin Sans", sans-serif;
-$font-secondary: "Merriweather", serif;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
 
@@ -37,7 +37,7 @@ $padding-larger: $padding-large * 1.5;
 $padding-largest: $padding-larger * 1.5;
 $header-icon-height: 1.7rem;
 $header-height: $padding-medium + $header-icon-height;
-$border-radius: 7px;
+$border-radius: 5px;
 
 // layers
 $z-middle: 500;
@@ -46,8 +46,8 @@ $z-top: 999;
 $z-top-top: 1000;
 
 // media queries
-$text-width: 37rem;
-$content-width: 1250px;
+$content-width: 1200px;
+$content-width-small: 27rem;
 $mq-small: 500px;
 $mq-medium: 900px;
 $mq-large: $content-width;

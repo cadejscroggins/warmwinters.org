@@ -2,20 +2,18 @@
 
 .text-input {
   padding: 0 1rem;
-  border: solid 3px $bg-primary-darkest;
   border-radius: $border-radius;
-  background-color: $bg-primary-dark;
-  transition: background-color .2s, border-color .2s;
+  background-color: $bg-primary-darkest;
+  transition: background-color .2s;
   font-size: 1.2em;
   line-height: 3.6rem;
 
   &:hover {
-    border-color: $bg-primary-hella-darker;
+    background-color: $bg-primary-darker;
   }
 
   &:focus {
-    border-color: $bg-secondary;
-    background-color: $white;
+    background-color: $bg-primary-dark;
   }
 }
 

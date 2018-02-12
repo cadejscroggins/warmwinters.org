@@ -198,8 +198,9 @@
   }
 }
 
-.link-list {
-  li{
+.link-list,
+.link-list-simple {
+  li {
     &:last-of-type {
       margin-bottom: $padding-small;
     }
@@ -220,5 +221,25 @@
     top: -.15em;
     width: .7em;
     vertical-align: middle;
+  }
+}
+
+.link-list-simple {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: $padding-medium auto 0;
+  font-size: 1.2em;
+
+  @include mq-small {
+    max-width: $content-width-small;
+  }
+
+  li {
+    width: 100%;
+
+    @include mq-small {
+      width: 50%;
+    }
   }
 }

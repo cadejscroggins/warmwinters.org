@@ -1,0 +1,8 @@
+{{ $p := .Get 0 }}
+{{ $s := $.Site.Data.stats }}
+
+{{ if eq $p "clothingItems" }}{{ $s.clothingItems }}{{ end }}
+{{ if eq $p "personalCareProducts" }}{{ $s.personalCareProducts }}{{ end }}
+{{ if eq $p "homelessHelped" }}{{ $s.homelessHelped }}{{ end }}
+{{ if eq $p "impactDollars" }}{{ $s.impactDollars }}{{ end }}
+{{ if eq $p "totalDonations" }}{{ $s.totalDonations }}{{ end }}

@@ -52,16 +52,11 @@ menu:
     <span>3-time World Champion Downhill Skier, Founder of Rahlves Banzai Tour</span>
   </div>
   <div>
-    <img src="/img/profiles/karl.jpg">
-    <h5>Karl Robillard</h5>
-    <span>Communications &amp; Public Relations Manager at St. Anthony Foundation</span>
-  </div>
-  <div>
     <img src="/img/profiles/sam.jpg">
     <h5>Sam Beard</h5>
     <span>President &amp; Co-Founder of the Jefferson Awards</span>
   </div>
-  <div>
+  <div class="people__dangling">
     <img src="/img/profiles/paul.jpg">
     <h5>Paul Bradshaw</h5>
     <span>CPA</span>

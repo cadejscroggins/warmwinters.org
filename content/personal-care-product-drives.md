@@ -23,10 +23,10 @@ menu:
     <h5>Deliver and Track</h5>
     <p>Our youth leaders deliver the personal care products to their local homeless shelters, and we track the results.</p>
   </div>
-  <div style="background-image: url('https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop')"></div>
+  <div style="background-image: url('/img/personal-care-product-drives.jpg')"></div>
 </div>
 
 <div class="big-stat">
-  <h4><span>12,100</span> Personal care products delivered</h4>
+  <h4><span>{{% stat personalCareProducts %}}</span> Personal care products delivered</h4>
 </div>
 

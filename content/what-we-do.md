@@ -10,22 +10,22 @@ menu:
 
 <h3>What We Do</h3>
 
-<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p class="intro-text">Warm Winters is an international nonprofit tackling homelessness with the power of youth.</p>
 
-<p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+<p class="paragraph-text">Our youth volunteers take warm clothing from ski resort lost-and-founds in the US, Canada, and Australia and donate it to surrounding homeless communities. We also provide leadership training for youth in schools across the world, teaching them how to start a movement and  give back in their communities.</p>
 
 <div class="what-we-do-links">
-  <a href="/ski-resort-program/" style="background-image: url('https://images.unsplash.com/photo-1510860933079-0d4aa3d081bb?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop')">
+  <a href="/ski-resort-program/" style="background-image: url('/img/ski-resort-program.jpg')">
     <h4><span>Ski Resort Program</span></h4>
   </a>
-  <a href="/clothing-drives/" style="background-image: url('https://images.unsplash.com/photo-1510672277783-ea03bdd8b602?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop')">
+  <a href="/clothing-drives/" style="background-image: url('/img/clothing-drives.jpg')">
     <h4><span>Clothing Drives</span></h4>
   </a>
-  <a href="/personal-care-product-drives/" style="background-image: url('https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?auto=format&crop=entropy&cs=tinysrgb&w=900&h=900&fit=crop')">
+  <a href="/personal-care-product-drives/" style="background-image: url('/img/personal-care-product-drives.jpg')">
     <h4><span>Personal Care Product Drives</span></h4>
   </a>
 </div>
 
 <div class="big-stat">
-  <h4><span>34,000</span> Homeless community members helped</h4>
+  <h4><span>{{% stat homelessHelped %}}</span> Homeless community members helped</h4>
 </div>

@@ -9,7 +9,11 @@
   }
 
   h4 {
-    margin-top: $padding-larger;
+    margin-top: $padding-large;
+
+    @include mq-medium {
+      margin-top: $padding-larger;
+    }
   }
 }
 
@@ -61,14 +65,11 @@
   }
 
   h4 {
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: $padding-medium;
     background-color: rgba(0, 0, 0, .5);
@@ -161,7 +162,7 @@
 
   img {
     width: 100%;
-    margin-bottom: $padding-small;
+    margin: 0 auto $padding-small;
     border-radius: 50%;
   }
 
@@ -172,13 +173,24 @@
   }
 
   .people__founder {
-    margin: 0 auto;
+    margin: $padding-small auto 0;
     padding-top: 0;
+  }
+
+  .people__dangling {
+    @include mq-small {
+      width: 100%;
+
+      img {
+        width: 11.5rem;
+      }
+    }
   }
 }
 
-.link-list-list {
-  margin: $padding-medium auto 0;
+.link-list-list,
+.link-list-list-wide {
+  margin: $padding-medium auto $padding-small * -1;
   column-count: 2;
 
   @include mq-small {
@@ -195,6 +207,17 @@
   li {
     break-inside: avoid-column;
     white-space: nowrap;
+  }
+}
+
+.link-list-list-wide {
+  column-count: 1;
+
+  @include mq-small {
+    column-count: 2;
+    max-width: $content-width-small;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -225,21 +248,19 @@
 }
 
 .link-list-simple {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  max-width: $content-width-small;
   margin: $padding-medium auto 0;
   font-size: 1.2em;
 
   @include mq-small {
-    max-width: $content-width-small;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   li {
-    width: 100%;
-
-    @include mq-small {
-      width: 50%;
+    &:last-of-type {
+      margin-bottom: 0;
     }
   }
 }

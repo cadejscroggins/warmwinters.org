@@ -10,13 +10,13 @@ menu:
 
 <h3>Our Story</h3>
 
-<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p class="intro-text">When Corinne was 11 years old, she saw a man who was homeless on the streets of her hometown. It was a really cold day, and he was wearing only jeans and a t-shirt, and immediately, Corinne felt a need to help him.</p>
 
-<p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+<p class="paragraph-text">She got together with her best Katrine, and both having grown up being avid ski-racers in Tahoe, they came up with the idea to take the warm hats, coats, gloves, and scarves left in the ski resort&rsquo;s lost-and-found, and donate the clothing to a local homeless shelter. The ski resorts said yes, and in 2011, Warm Winters was born.</p>
 
 <figure class="paragraph-figure">
-  <img src="https://images.unsplash.com/photo-1494023120489-e26d4967e173?ixlib=rb-0.3.5&s=ea74cec3b8ad95fe1c1bd0a45a413b00&auto=format&fit=crop&w=2550&q=80">
-  <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+  <img src="/img/blanket.jpg">
+  <figcaption>Corinne &amp; Katrine giving a homeless man a warm blanket in SF.</figcaption>
 </figure>
 
-<p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+<p class="paragraph-text">In 2013, with the help of the Jefferson Awards Foundation, Warm Winters started expanding to other ski resorts throughout the US, Canada, and Australia. Warm Winters also provides leadership training for youth, teaching them how to lead a movement and give back in their communities. Today, hundreds of Warm Winters volunteers collect clothing from 36 ski resorts, as well as from their communities. They have delivered over {{% stat totalDonations %}} donations to {{% stat homelessHelped %}} people in need, and are still growing!</p>

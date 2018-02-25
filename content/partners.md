@@ -134,14 +134,18 @@ menu:
 <h4>Charity Partners</h4>
 
 <ul class="link-list-simple">
-  <li><a href="http://creekkids.org/" target="_blank">Creek Kids Care <i data-feather="external-link"></i></a></li>
-  <li><a href="https://www.dwrightwayfoundation.org/" target="_blank">D Wright Way Foundation <i data-feather="external-link"></i></a></li>
-  <li><a href="https://www.mitscoots.com/" target="_blank">Mitscoots <i data-feather="external-link"></i></a></li>
-  <li><a href="http://readindeed.org/" target="_blank">Read Indeed <i data-feather="external-link"></i></a></li>
-  <li><a href="https://www.stanthonysf.org/" target="_blank">St. Anthony&rsquo;s <i data-feather="external-link"></i></a></li>
-  <li><a href="http://www.tmkids.org/" target="_blank">Terry&rsquo;s Kids <i data-feather="external-link"></i></a></li>
-  <li><a href="https://www.brarecycling.com/" target="_blank">The Bra Recyclers <i data-feather="external-link"></i></a></li>
-  <li><a href="http://www.theinspiringproject.com/" target="_blank">The Inspiring Project <i data-feather="external-link"></i></a></li>
-  <li><a href="http://trinitycenterwc.org/" target="_blank">Trinity Center <i data-feather="external-link"></i></a></li>
-  <li><a href="https://www.facebook.com/2-Pairs-Each-1663324283883742/" target="_blank">2 Pairs Each <i data-feather="external-link"></i></a></li>
+  <div>
+    <li><a href="http://creekkids.org/" target="_blank">Creek Kids Care <i data-feather="external-link"></i></a></li>
+    <li><a href="https://www.dwrightwayfoundation.org/" target="_blank">D Wright Way Foundation <i data-feather="external-link"></i></a></li>
+    <li><a href="https://www.mitscoots.com/" target="_blank">Mitscoots <i data-feather="external-link"></i></a></li>
+    <li><a href="http://readindeed.org/" target="_blank">Read Indeed <i data-feather="external-link"></i></a></li>
+    <li><a href="https://www.stanthonysf.org/" target="_blank">St. Anthony&rsquo;s <i data-feather="external-link"></i></a></li>
+  </div>
+  <div>
+    <li><a href="http://www.tmkids.org/" target="_blank">Terry&rsquo;s Kids <i data-feather="external-link"></i></a></li>
+    <li><a href="https://www.brarecycling.com/" target="_blank">The Bra Recyclers <i data-feather="external-link"></i></a></li>
+    <li><a href="http://www.theinspiringproject.com/" target="_blank">The Inspiring Project <i data-feather="external-link"></i></a></li>
+    <li><a href="http://trinitycenterwc.org/" target="_blank">Trinity Center <i data-feather="external-link"></i></a></li>
+    <li><a href="https://www.facebook.com/2-Pairs-Each-1663324283883742/" target="_blank">2 Pairs Each <i data-feather="external-link"></i></a></li>
+  </div>
 </ul>

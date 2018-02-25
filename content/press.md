@@ -7,3 +7,6 @@ menu:
     name: "Press"
     weight: -70
 ---
+
+{{% youtube GcsNmCdaikM %}}
+{{% youtube g8v8JDU9v3E %}}

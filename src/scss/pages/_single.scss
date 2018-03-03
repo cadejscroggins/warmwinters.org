@@ -264,3 +264,28 @@
     }
   }
 }
+
+.issuuembed-container {
+  position: relative;
+  width: 100%;
+  height: 60vw;
+  margin-top: $padding-medium;
+  background-color: $bg-primary-darker;
+  overflow: hidden;
+
+  @include mq-medium {
+    height: 50vw;
+  }
+
+  @include mq-large {
+    height: 600px;
+  }
+}
+
+.issuuembed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+}

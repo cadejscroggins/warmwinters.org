@@ -32,6 +32,7 @@
   max-width: $content-width-small;
   margin: $padding-medium auto 0;
   color: $text-primary-light;
+  text-align: justify;
 }
 
 .paragraph-figure {
@@ -92,7 +93,7 @@
     &:first-of-type {
       @include mq-medium {
         order: 2;
-        width: 50%;
+        width: 40%;
         margin-left: $padding-medium;
       }
     }
@@ -106,7 +107,7 @@
       background-position: center;
 
       @include mq-medium {
-        width: 50%;
+        width: 60%;
         height: auto;
         margin-top: 0;
       }
@@ -288,4 +289,28 @@
   left: 0;
   right: 0;
   bottom: -30px;
+}
+
+.press-hero {
+  @include mq-medium {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &>div {
+    @include mq-medium {
+      width: calc(50% - #{$padding-small});
+    }
+  }
+
+  &>div>div {
+    margin-top: $padding-medium;
+  }
+}
+
+.contact-form {
+  iframe {
+    width: 100%;
+    height: 1150px;
+  }
 }

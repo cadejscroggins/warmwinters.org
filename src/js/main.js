@@ -17,23 +17,18 @@ function onMouseMove(e) {
   if (!window.onloadLink) enableHover();
 }
 
-InstantClick.on('change', () => {
-  // ga('send', 'pageview', location.pathname + location.search);
-  feather.replace();
-  Stickyfill.add(document.querySelector('nav'));
-  document.addEventListener('mousemove', onMouseMove);
+// ga('send', 'pageview', location.pathname + location.search);
+feather.replace();
+Stickyfill.add(document.querySelector('nav'));
+document.addEventListener('mousemove', onMouseMove);
 
-  const toggle = document.querySelector('.js-nav-toggle');
-  const toggleImg = toggle.querySelector('img');
-  const nav = document.querySelector('nav');
+const toggle = document.querySelector('.js-nav-toggle');
+const toggleImg = toggle.querySelector('img');
+const nav = document.querySelector('nav');
 
-  toggle.addEventListener('click', () => {
-    nav.classList.toggle('active');
-    document.body.classList.toggle('noscroll');
-    if (nav.classList.contains('active')) toggleImg.src = '/img/close.svg';
-    else toggleImg.src = '/img/menu.svg';
-  });
+toggle.addEventListener('click', () => {
+  nav.classList.toggle('active');
+  document.body.classList.toggle('noscroll');
+  if (nav.classList.contains('active')) toggleImg.src = '/img/close.svg';
+  else toggleImg.src = '/img/menu.svg';
 });
- 
-InstantClick.init(75);
-

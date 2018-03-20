@@ -12,3 +12,15 @@
 .text-center {
   text-align: center;
 }
+
+.m-0 {
+  margin: 0;
+}
+
+.small-break {
+  display: none;
+
+  @include mq-small {
+    display: block;
+  }
+}

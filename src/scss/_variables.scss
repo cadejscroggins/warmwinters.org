@@ -15,7 +15,8 @@ $bg-primary-hella-darker: darken($bg-primary, 10%);
 $bg-secondary: $off-black;
 $bg-secondary-dark: darken($bg-secondary, 5%);
 $text-primary: $off-black;
-$text-primary-light: lighten($text-primary, 5%);
+$text-primary-light: rgba($text-primary, .95);
+$text-primary-lightest: rgba($text-primary, .6);
 $text-secondary: $white;
 $accent-primary: $blue;
 $accent-primary-dark: darken($blue, 5%);
@@ -37,7 +38,7 @@ $padding-larger: $padding-large * 1.5;
 $padding-largest: $padding-larger * 1.5;
 $header-icon-height: 1.7rem;
 $header-height: $padding-medium + $header-icon-height;
-$border-radius: 5px;
+$border-radius: 4px;
 
 // layers
 $z-middle: 500;

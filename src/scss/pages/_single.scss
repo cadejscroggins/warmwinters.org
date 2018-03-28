@@ -321,7 +321,7 @@
   flex-wrap: wrap;
   margin-top: $padding-medium;
 
-  a {
+  form {
     width: 100%;
     margin: 1em 0 0;
     text-align: center;
@@ -334,5 +334,9 @@
       width: auto;
       margin: 0 .5em;
     }
+  }
+
+  input {
+    width: 100%;
   }
 }

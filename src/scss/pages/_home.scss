@@ -39,6 +39,12 @@
       font-size: 3em;
     }
   }
+
+  .button {
+    @include mq-small {
+      margin: 0 $padding-small;
+    }
+  }
 }
 
 .intro {

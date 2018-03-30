@@ -13,7 +13,7 @@ menu:
 <p class="intro-text">If you haven&rsquo;t signed up yet&hellip;</p>
 
 <div class="inline-buttons">
-  <a class="button button-accent" href="/volunteer-application/">Sign Up</a>
+  <a class="button button-accent" href="/volunteer/">Sign Up</a>
 </div>
 
 <h4>Downloads</h4>

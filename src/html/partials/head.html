@@ -11,13 +11,23 @@
 
 <link href="{{ .Permalink }}" rel="canonical">
 
-<link href="//fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
 <link href="/bundle.css" rel="stylesheet">
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/stickyfill/2.0.3/stickyfill.min.js" defer></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/feather-icons/4.5.0/feather.min.js" defer></script>
-<script src="//e.issuu.com/embed.js" defer></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-36603722-7" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/2.0.3/stickyfill.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.5.0/feather.min.js" defer></script>
+<script src="https://e.issuu.com/embed.js" defer></script>
 <script src="/bundle.js" defer></script>
+
+<script>
+  if (window.location.hostname !== 'localhost') {
+    window.dataLayer = [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-36603722-7');
+  }
+</script>
 
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}

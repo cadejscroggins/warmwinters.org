@@ -21,12 +21,10 @@
 <script src="/bundle.js" defer></script>
 
 <script>
-  if (window.location.hostname !== 'localhost') {
-    window.dataLayer = [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-36603722-7');
-  }
+  window.dataLayer = [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'UA-36603722-7');
 </script>
 
 {{ template "_internal/opengraph.html" . }}

@@ -5,7 +5,7 @@
     "build": "run-s build:nodist mkdir:dist build:hugo",
     "build:css": "postcss build/bundle.css --map -o build/bundle.css",
     "build:hugo": "hugo --quiet",
-    "build:img": "cp -r src/img/ build/",
+    "build:img": "cp -r src/img build/",
     "build:js": "minify src/js/main.js -o build/bundle.js",
     "build:nodist": "run-s clean mkdir:build build:js build:sass build:css build:img build:static",
     "build:sass": "node-sass -q --include-path src/scss src/scss/main.scss build/bundle.css",

@@ -223,6 +223,7 @@
 }
 
 .link-list,
+.link-list-single,
 .link-list-simple {
   li {
     &:last-of-type {
@@ -338,5 +339,25 @@
 
   input {
     width: 100%;
+  }
+}
+
+.sign-up-button-container {
+  margin: $padding-medium $padding-medium 0;
+  text-align: center;
+}
+
+.volunteer-resources {
+  @include mq-medium {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h4 {
+    text-align: left;
+  }
+
+  .link-list-simple {
+    max-width: $content-width;
   }
 }

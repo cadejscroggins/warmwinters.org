@@ -2,12 +2,13 @@
 
 .button {
   display: inline-block;
-  padding: 0 2.2rem;
+  padding: .2em 2.2em 0;
   border-radius: $border-radius;
   background-color: $bg-secondary;
   transition: background-color .2s;
   color: $text-secondary;
   font-size: 1.2em;
+  font-weight: $font-weight-bold;
   line-height: 3.3rem;
 
   &:hover {

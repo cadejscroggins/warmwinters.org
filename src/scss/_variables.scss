@@ -1,10 +1,8 @@
 // base colors
-$black: #010101;
+$black: #000000;
 $white: #fefefe;
 $off-black: #35383F;
 $blue: #95D0F2;
-$dark-blue: #31425A;
-$purple: #949cef;
 
 // theme colors
 $bg-primary: $white;
@@ -21,7 +19,6 @@ $text-secondary: $white;
 $accent-primary: $blue;
 $accent-primary-dark: darken($blue, 5%);
 $accent-primary-darker: darken($blue, 10%);
-$accent-secondary: $dark-blue;
 
 // fonts
 $font-primary: "Josefin Sans", sans-serif;

@@ -32,4 +32,9 @@
       background-color: $accent-primary-darker;
     }
   }
+
+  svg {
+    position: relative;
+    top: .2em;
+  }
 }

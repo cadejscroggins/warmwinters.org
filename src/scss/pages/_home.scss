@@ -39,18 +39,6 @@
       font-size: 3em;
     }
   }
-
-  a {
-    margin-top: $padding-medium;
-
-    &:first-of-type {
-      margin-right: $padding-small;
-
-      @include mq-small {
-        margin-right: $padding-medium;
-      }
-    }
-  }
 }
 
 .intro {

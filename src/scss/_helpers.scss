@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .m-0 {
   margin: 0;
 }
@@ -24,3 +28,50 @@
     display: block;
   }
 }
+
+.inline-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: $padding-medium;
+
+  .button {
+    width: 100%;
+    margin: 1em 0 0;
+    text-align: center;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    @include mq-small {
+      width: auto;
+      margin: 0 .5em;
+    }
+  }
+}
+
+.intro-text {
+  @include mq-small {
+    font-size: 1.12em;
+    text-align: center;
+  }
+
+  @include mq-medium {
+    font-size: 1.5em;
+  }
+}
+
+.paragraph-text {
+  max-width: $content-width-small;
+  margin: $padding-medium auto 0;
+  color: $text-primary-light;
+}
+
+.google-form {
+  iframe {
+    width: 100%;
+    height: 800px;
+  }
+}
+

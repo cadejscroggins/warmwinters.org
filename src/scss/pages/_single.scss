@@ -171,15 +171,14 @@
   }
 }
 
-.link-list-list,
-.link-list-list-wide {
+.link-list-list {
   margin: $padding-medium auto $padding-small * -1;
   column-count: 2;
 
   @include mq-small {
     column-count: 3;
     column-gap: $padding-large;
-    max-width: $content-width-small;
+    max-width: $content-width-smaller;
   }
 
   @include mq-medium {
@@ -198,9 +197,10 @@
 
   @include mq-small {
     column-count: 2;
-    max-width: $content-width-small;
-    margin-left: auto;
-    margin-right: auto;
+  }
+
+  @include mq-medium {
+    column-count: 4;
   }
 }
 
@@ -232,7 +232,7 @@
 }
 
 .link-list-simple {
-  max-width: $content-width-small;
+  max-width: $content-width-smaller;
   margin: $padding-medium auto 0;
   font-size: 1.2em;
 

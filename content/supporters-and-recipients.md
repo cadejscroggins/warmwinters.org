@@ -37,7 +37,7 @@ menu:
 
 <h4>Recipients</h4>
 
-<ul class="link-list-list-wide">
+<ul class="link-list-list link-list-list-wide">
   <li>
     <h5>California</h5>
     <ul class="link-list">

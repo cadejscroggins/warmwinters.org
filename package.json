@@ -2,10 +2,11 @@
   "name": "warmwinters.org",
   "private": true,
   "scripts": {
-    "build": "run-s build:nodist mkdir:dist build:hugo",
+    "build": "run-s build:nodist mkdir:dist build:hugo build:html",
     "build:css": "postcss build/bundle.css --map -o build/bundle.css",
+    "build:html": "find dist/ -name *.html | while read f; do html-minifier --minify-js --minify-css --collapse-whitespace --remove-comments $f > $f.tmp && mv $f.tmp $f; done",
     "build:hugo": "hugo --quiet",
-    "build:img": "cp -r src/img build/",
+    "build:img": "imagemin src/img/* --out-dir build/img/",
     "build:js": "minify src/js/main.js -o build/bundle.js",
     "build:nodist": "run-s clean mkdir:build build:js build:sass build:css build:img build:static",
     "build:sass": "node-sass -q --include-path src/scss src/scss/main.scss build/bundle.css",
@@ -24,6 +25,8 @@
     "babel-minify": "^0.3.0",
     "css-mqpacker": "^6.0.2",
     "cssnano": "^4.0.0-rc.2",
+    "html-minifier": "^3.5.13",
+    "imagemin-cli": "^3.0.0",
     "node-sass": "^4.8.3",
     "npm-run-all": "^4.1.2",
     "postcss-cli": "^5.0.0"

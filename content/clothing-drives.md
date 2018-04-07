@@ -10,8 +10,7 @@ menu:
 
 <h3>Clothing Drives</h3>
 
-<p class="intro-text">Socks are the #1 most requested item at every
-homeless shelter, yet are the least donated item. Labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labore et dolore.</p>
+<p class="intro-text">Socks are the #1 most requested item at every homeless shelter, yet are the least donated item. We provide socks and other clothing to those in need.</p>
 
 <h4>Our Approach</h4>
 

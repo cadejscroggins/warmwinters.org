@@ -55,7 +55,8 @@
   }
 
   p {
-    margin-bottom: $padding-medium;
+    max-width: 25em;
+    margin: 0 auto $padding-medium;
   }
 }
 

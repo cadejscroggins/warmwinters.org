@@ -10,7 +10,7 @@ menu:
 
 <h3>Personal Care Product Drives</h3>
 
-<p class="intro-text">Our homeless community members live on the streets, without access to daily toiletries such as soap, shampoo, toothbrushes and feminine hygiene products. Lorem ipsum dolor set amet.</p>
+<p class="intro-text">Most homeless live without access to daily toiletries such as soap, shampoo, toothbrushes and feminine hygiene products. We provide these products to those in need.</p>
 
 <h4>Our Approach</h4>
 

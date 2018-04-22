@@ -10,7 +10,9 @@ menu:
 
 <h3>Volunteer</h3>
 
-<p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper eu nisi at tincidunt. Aenean varius, purus eu varius viverra, nunc diam venenatis dui, quis tristique dui erat quis ligula.</p>
+<p class="intro-text">Would you like to get involved with Warm Winters?<br class="small-break"> There are many ways to volunteer!</p>
+
+<p class="paragraph-text">If you are involved with a ski resort, we can help you set up a Warm Winters chapter there. You can also do a sock drive, toiletry drive, or coat drive at your local school, church  or community center. Do you have mad social media skills? You can help us with our social channels. Love to fundraise? We'd love help with that too! Fill out the appropriate application below to get started!</p>
 
 <div class="inline-buttons">
   <a class="button" href="https://goo.gl/forms/aMghJPGpCynUbI4J2" target="_blank">Volunteer Application <i data-feather="external-link"></i></a>

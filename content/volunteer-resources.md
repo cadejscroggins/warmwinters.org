@@ -52,7 +52,7 @@ menu:
 <h4>Volunteer Report Forms</h4>
 
 <div class="inline-buttons">
-  <a class="button" href="https://goo.gl/forms/fsDBmJdRfSLSdDL73" target="_blank">Ski Resort Program <i data-feather="external-link"></i></a>
+  <a class="button" href="https://goo.gl/forms/KmLu4MjWPEcVLkDx2" target="_blank">Ski Resort Program <i data-feather="external-link"></i></a>
   <a class="button" href="https://goo.gl/forms/oHzpz9PR5kg3Ur9U2" target="_blank">Donation Drive <i data-feather="external-link"></i></a>
 </div>
 

@@ -16,8 +16,7 @@ Then, do the following:
 1. clone the repo: `git clone git@github.com:cadejscroggins/warmwinters.org.git`
 2. cd into it: `cd warmwinters.org`
 3. install dependencies: `yarn`
-4. build for the first time: `yarn build`
-5. serve and watch for changes: `yarn start`
+4. serve and watch for changes: `yarn start`
 
 ## License
 

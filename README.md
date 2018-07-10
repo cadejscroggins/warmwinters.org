@@ -1,6 +1,6 @@
 # Warm Winters
 
-Source code for https://warmwinters.org.
+> Source code for an awesome nonprofit.
 
 ## Development Setup
 

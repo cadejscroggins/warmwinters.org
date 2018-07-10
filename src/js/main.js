@@ -1,4 +1,3 @@
-
 (() => {
   function enableHover() {
     delete window.onloadLink;

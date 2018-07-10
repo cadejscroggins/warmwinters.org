@@ -1,6 +1,6 @@
 # Warm Winters
 
-> Source code for an awesome nonprofit.
+> Website for an awesome nonprofit.
 
 ## Development Setup
 

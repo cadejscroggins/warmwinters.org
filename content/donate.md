@@ -1,6 +1,6 @@
 ---
 title: "Donate | Warm Winters"
-description: "We do cool shit."
+description: "Our mission is to improve the lives of those living on the streets through the power of youth."
 menu:
   main:
     name: "Donate"

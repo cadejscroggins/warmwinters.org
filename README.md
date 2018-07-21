@@ -13,11 +13,11 @@ Before doing anything else, make sure you have the following tools installed:
 
 Then, do the following:
 
-1. clone the repo: `git clone git@github.com:cadejscroggins/warmwinters.org.git`
+1. clone the repo: `git clone git@github.com:warmwintersorg/warmwinters.org.git`
 2. cd into it: `cd warmwinters.org`
 3. install dependencies: `yarn`
 4. serve and watch for changes: `yarn start`
 
 ## License
 
-[MIT](https://raw.githubusercontent.com/cadejscroggins/warmwinters.org/master/LICENSE.txt)
+[MIT](https://raw.githubusercontent.com/warmwintersorg/warmwinters.org/master/LICENSE.txt)

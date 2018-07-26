@@ -41,11 +41,19 @@
   Stickyfill.add(document.querySelector('nav'));
 
   window.odometerOptions = { auto: false };
-
   for (const el of document.querySelectorAll('.odometer')) {
     inViewport(el, { offset: 100 }, () => {
       const od = new Odometer({ el, value: 0, duration: el.dataset.duration });
       od.update(el.dataset.value);
     });
   }
+
+  const bg = document.querySelector('.hero-bg-wrapper');
+  const children = bg.children.length;
+  let currentBg = 0;
+  setInterval(() => {
+    if (currentBg < children - 1) currentBg++;
+    else currentBg = 0;
+    bg.style = `transform: translateY(-${100 * currentBg}%)`;
+  }, 4000);
 })();

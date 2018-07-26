@@ -4,7 +4,7 @@
   "scripts": {
     "build": "run-s clean:dist build:nodist build:hugo build:html",
     "build:css": "postcss build/bundle.css --map -o build/bundle.css",
-    "build:html": "find dist/ -name *.html | while read f; do html-minifier --minify-js --minify-css --collapse-whitespace --remove-comments $f > $f.tmp && mv $f.tmp $f; done",
+    "build:html": "find dist/ -name *.html | while read f; do html-minifier --minify-js --minify-css --remove-comments $f > $f.tmp && mv $f.tmp $f; done",
     "build:hugo": "hugo --quiet",
     "build:img": "imagemin src/img/* --out-dir build/img/",
     "build:js": "minify src/js/main.js -o build/bundle.js",

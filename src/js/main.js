@@ -49,11 +49,19 @@
   }
 
   const bg = document.querySelector('.hero-bg-wrapper');
-  const children = bg.children.length;
-  let currentBg = 0;
+  bg.insertAdjacentElement('beforeend', bg.children[0].cloneNode());
+  let children = bg.children.length;
+  let currentBg = 1;
+
   setInterval(() => {
-    if (currentBg < children - 1) currentBg++;
-    else currentBg = 0;
-    bg.style = `transform: translateY(-${100 * currentBg}%)`;
-  }, 4000);
+    bg.style = `transition: transform 1s;transform: translateY(-${100 * currentBg}%)`;
+    if (currentBg < children - 1) {
+      currentBg++;
+    } else {
+      setTimeout(() => {
+        bg.style = `transition: transform 0;transform: translateY(0)`;
+        currentBg = 1
+      }, 2000);
+    }
+  }, 3000);
 })();

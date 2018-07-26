@@ -23,19 +23,23 @@
   <div>
     <a href="/clothing-drives/">
       <i data-feather="umbrella"></i>
-      <h4>{{ .Site.Data.stats.clothingItems }} <span>Items of warm<br>clothing delivered</span></h4>
+      <h4><span class="odometer" data-value="{{ .Site.Data.stats.clothingItems }}"></span></h4>
+      <span>Items of warm<br>clothing delivered</span>
     </a>
     <a href="/personal-care-product-drives/">
       <i data-feather="box"></i>
-      <h4>{{ .Site.Data.stats.personalCareProducts }} <span>Personal care<br>products delivered</span></h4>
+      <h4><span class="odometer" data-value="{{ .Site.Data.stats.personalCareProducts }}"></span></h4>
+      <span>Personal care<br>products delivered</span>
     </a>
     <a href="/what-we-do/">
       <i data-feather="heart"></i>
-      <h4>{{ .Site.Data.stats.homelessHelped }} <span>Homeless community<br>members helped</span></h4>
+      <h4><span class="odometer" data-value="{{ .Site.Data.stats.homelessHelped }}"></span></h4>
+      <span>Homeless community<br>members helped</span>
     </a>
     <a href="/annual-reports/">
       <i data-feather="dollar-sign"></i>
-      <h4>{{ .Site.Data.stats.impactDollars }} <span>Total community<br>impact dollars</span></h4>
+      <h4><span class="odometer" data-value="{{ .Site.Data.stats.impactDollars }}"></span></h4>
+      <span>Total community<br>impact dollars</span>
     </a>
   </div>
 </section>

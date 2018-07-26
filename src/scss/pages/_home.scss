@@ -124,15 +124,16 @@
   }
 
   h4 {
-    margin: $padding-smallest 0 $padding-smaller;
-    font-size: 1.7em;
+    margin: $padding-smaller 0;
+    font-size: 1.6rem;
+    letter-spacing: .1em;
 
-    @include mq-small {
-      font-size: 2.4em;
+    @include mq-medium {
+      font-size: 2rem;
     }
   }
 
-  span {
+  a>span {
     display: block;
     line-height: 1.4em;
     font-size: 1rem;

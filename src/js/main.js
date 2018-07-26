@@ -39,4 +39,13 @@
 
   feather.replace();
   Stickyfill.add(document.querySelector('nav'));
+
+  window.odometerOptions = { auto: false };
+
+  for (const el of document.querySelectorAll('.odometer')) {
+    inViewport(el, { offset: 100 }, () => {
+      const od = new Odometer({ el, value: 0, duration: el.dataset.duration });
+      od.update(el.dataset.value);
+    });
+  }
 })();

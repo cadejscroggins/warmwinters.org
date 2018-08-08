@@ -78,7 +78,7 @@ menu:
     </ul>
   </li>
   <li>
-    <h5>New Hapshire</h5>
+    <h5>New Hampshire</h5>
     <ul class="link-list">
       <li><a href="" target="_blank">Crossroads House <i data-feather="external-link"></i></a></li>
     </ul>

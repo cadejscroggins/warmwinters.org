@@ -66,16 +66,34 @@ footer {
 
 .footer__end {
   padding-top: 0;
+  padding-bottom: $padding-large;
 
   @include mq-small {
     text-align: center;
   }
+}
 
-  address {
-    opacity: .4;
+.footer__end-top {
+  opacity: .6;
+}
+
+.footer__end-middle {
+  opacity: .4;
+}
+
+.footer__end-bottom {
+  opacity: .2;
+}
+
+.footer__logos {
+  padding-top: 0;
+
+  img {
+    height: 4rem;
   }
 
-  span {
-    opacity: .2;
+  @include mq-small {
+    display: flex;
+    justify-content: center;
   }
 }

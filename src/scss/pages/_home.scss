@@ -197,15 +197,15 @@
   }
 
   ul {
-    display: flex;
-    justify-content: space-between;
-
     @include mq-small {
+      display: flex;
       justify-content: center;
     }
   }
 
   li {
+    margin: $padding-medium 0 0;
+
     @include mq-small {
       margin: 0 $padding-small;
     }

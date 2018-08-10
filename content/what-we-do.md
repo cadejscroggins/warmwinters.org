@@ -19,7 +19,7 @@ menu:
   <a href="/clothing-drives/" style="background-image: url('/img/clothing-drives.jpg')">
     <h4><span>Clothing Drives</span></h4>
   </a>
-  <a href="/personal-care-product-drives/" style="background-image: url('/img/personal-care-product-drives.jpg')">
+  <a href="/personal-care-product-drives/" style="background-image: url('/img/personal-care.jpg')">
     <h4><span>Personal Care Product Drives</span></h4>
   </a>
 </div>

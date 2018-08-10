@@ -23,7 +23,7 @@ menu:
     <h5>Deliver and Track</h5>
     <p>Our youth leaders deliver the personal care products to their local homeless shelters, and we track the results.</p>
   </div>
-  <div style="background-image: url('/img/personal-care-product-drives.jpg')"></div>
+  <div style="background-image: url('/img/personal-care.jpg')"></div>
 </div>
 
 <div class="big-stat">

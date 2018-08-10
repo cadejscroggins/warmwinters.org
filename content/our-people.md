@@ -11,7 +11,7 @@ menu:
 <h3 class="text-center">Our People</h3>
 
 <div class="people">
-  <a href="#" target="_blank" class="people__founder">
+  <a href="https://www.linkedin.com/in/corinnehindes/" target="_blank" class="people__founder">
     <img src="/img/profile-corinne.jpg">
     <h5>Corinne Hindes</h5>
     <span>President, Founder &amp; CEO</span>
@@ -21,22 +21,22 @@ menu:
 <h4 class="text-center">Board of Directors</h4>
 
 <div class="people">
-  <a href="#" target="_blank">
+  <a href="https://www.linkedin.com/in/lauriehindes/" target="_blank">
     <img src="/img/profile-laurie.jpg">
     <h5>Laurie Hindes</h5>
     <span>Vice President, Treasurer</span>
   </a>
-  <a href="#" target="_blank">
+  <a href="https://www.linkedin.com/in/avis-jolly-2a672282/" target="_blank">
     <img src="/img/profile-avis.jpg">
     <h5>Avis Jolly</h5>
     <span>Secretary</span>
   </a>
-  <a href="#" target="_blank">
+  <a href="https://www.linkedin.com/in/katrine-kirsebom-5b237a157/" target="_blank">
     <img src="/img/profile-katrine.jpg">
     <h5>Katrine Kirsebom</h5>
     <span>Board Member</span>
   </a>
-  <a href="#" target="_blank">
+  <a href="https://www.linkedin.com/in/yvonne-saucedo-11b226/" target="_blank">
     <img src="/img/profile-yvonne.jpg">
     <h5>Yvonne Saucedo</h5>
     <span>Board Member</span>
@@ -46,12 +46,12 @@ menu:
 <h4 class="text-center">Advisory Board</h4>
 
 <div class="people">
-  <a href="#" target="_blank">
+  <a href="https://www.linkedin.com/in/daron-rahlves-67a27032/" target="_blank">
     <img src="/img/profile-daron.jpg">
     <h5>Daron Rahlves</h5>
     <span>3-time World Champion Downhill Skier, Founder of Rahlves Banzai Tour</span>
   </a>
-  <a href="#" target="_blank">
+  <a href="https://www.linkedin.com/in/sam-beard-b084a81a/" target="_blank">
     <img src="/img/profile-sam.jpg">
     <h5>Sam Beard</h5>
     <span>President &amp; Co-Founder of the Jefferson Awards</span>

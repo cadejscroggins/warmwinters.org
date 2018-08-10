@@ -39,7 +39,7 @@
     overflow: hidden;
 
     &:hover {
-      transform: scale(1.02);
+      transform: scale(1.05);
     }
 
     &:first-of-type {
@@ -132,9 +132,15 @@
   margin: 0 auto;
   text-align: center;
 
-  div {
+  a {
+    display: block;
     width: 14rem;
     margin: $padding-medium auto $padding-small;
+
+    &:hover img {
+      opacity: 1;
+      transform: scale(1);
+    }
 
     @include mq-small {
       width: 11.5rem;
@@ -147,6 +153,9 @@
     width: 100%;
     margin: 0 auto $padding-small;
     border-radius: 50%;
+    opacity: .9;
+    transform: scale(.95);
+    transition: opacity .2s, transform .2s
   }
 
   span {

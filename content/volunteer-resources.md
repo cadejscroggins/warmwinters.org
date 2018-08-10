@@ -51,9 +51,9 @@ menu:
 
 <h4>Volunteer Report Forms</h4>
 
-<div class="inline-buttons">
-  <a class="button" href="https://goo.gl/forms/KmLu4MjWPEcVLkDx2" target="_blank">Ski Resort Program <i data-feather="external-link"></i></a>
-  <a class="button" href="https://goo.gl/forms/oHzpz9PR5kg3Ur9U2" target="_blank">Donation Drive <i data-feather="external-link"></i></a>
-</div>
+<p class="paragraph-text">Please submit the applicable report form below so we can measure the total impact we are having on the homeless! Have a question? Please <a class="underline" href="/contact/">contact us</a>.</p>
 
-<p class="paragraph-text">Please submit the applicable report form above so we can measure the total impact we are having on the homeless! Have a question? Please <a class="underline" href="/contact/">contact us</a>.</p>
+<div class="inline-buttons">
+  <a class="button button-small" href="https://goo.gl/forms/KmLu4MjWPEcVLkDx2" target="_blank">Ski Resort Program <i data-feather="external-link"></i></a>
+  <a class="button button-small" href="https://goo.gl/forms/oHzpz9PR5kg3Ur9U2" target="_blank">Donation Drive <i data-feather="external-link"></i></a>
+</div>

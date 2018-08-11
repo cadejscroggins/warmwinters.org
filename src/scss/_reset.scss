@@ -10,6 +10,7 @@ html {
   color: $text-primary;
   font-family: $font-primary;
   font-size: 4vw;
+  font-weight: 400;
 
   @include mq-small {
     font-size: 2.4vw;
@@ -61,7 +62,7 @@ h4,
 h5 {
   margin: 0;
   color: $black;
-  font-weight: $font-weight-bold;
+  font-weight: 400;
   letter-spacing: .02em;
 }
 
@@ -88,9 +89,9 @@ h4 {
 }
 
 h5 {
+  margin-bottom: $padding-smallest;
   color: $text-primary-lightest;
-  font-size: .8em;
-  line-height: 2em;
+  line-height: 1.6em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -144,6 +145,7 @@ li {
   list-style: none;
 }
 
-#instantclick-bar {
-  background: $accent-primary;
+.medium-zoom-overlay,
+.medium-zoom-image--open {
+  z-index: $z-top-top;
 }

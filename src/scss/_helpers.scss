@@ -54,9 +54,6 @@
 .intro-text {
   font-size: 1.2em;
 
-  @include mq-small {
-  }
-
   @include mq-medium {
     font-size: 1.5em;
     text-align: center;

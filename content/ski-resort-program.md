@@ -15,18 +15,44 @@ menu:
 <h4>Our Approach</h4>
 
 <div class="our-approach">
-  <div>
-    <h5>Identify Partner Ski Resorts</h5>
-    <p>We partner with ski resorts who are commited to helping the homeless by donating their unclaimed lost and found.</p>
-    <h5>Recruit Youth Leaders</h5>
-    <p>Our youth leaders are passionate about changing the world.</p>
-    <h5>Identify Local Homeless Shelters</h5>
-    <p>We work with homeless shelters who pass on 100% of our donations directly to homeless community members.</p>
+  <div class="our-approach__steps">
+    <div class="our-approach__step">
+      <div class="our-approach__step-num">1</div>
+      <div>
+        <h5>Identify Partner Ski Resorts</h5>
+        <p>We partner with ski resorts who are commited to helping the homeless by donating their unclaimed lost and found.</p>
+      </div>
+    </div>
+    <div class="our-approach__step">
+      <div class="our-approach__step-num">2</div>
+      <div>
+        <h5>Recruit Youth Leaders</h5>
+        <p>Our youth leaders are passionate about changing the world.</p>
+      </div>
+    </div>
+    <div class="our-approach__step">
+      <div class="our-approach__step-num">3</div>
+      <div>
+        <h5>Identify Local Homeless Shelters</h5>
+        <p>We work with homeless shelters who pass on 100% of our donations directly to homeless community members.</p>
+      </div>
+    </div>
   </div>
-  <div style="background-image: url('/img/ski-resort-program.jpg')"></div>
+  <div class="our-approach__image" style="background-image: url('/img/ski-resort-program.jpg')"></div>
 </div>
 
 <div class="big-stat">
   <h4><span>38,000</span> Items of warm clothing delivered</h4>
+</div>
+
+<div class="gallery">
+  <div class="gallery__column">
+    <img class="zoom" src="/img/ski-resort-program-coach.jpg">
+    <img class="zoom" src="/img/ski-resort-program-blue.jpg">
+  </div>
+  <div class="gallery__column">
+    <img class="zoom" src="/img/ski-resort-program-girls.jpg">
+    <img class="zoom" src="/img/ski-resort-program-glasses.jpg">
+  </div>
 </div>
 

@@ -39,6 +39,7 @@
 
   feather.replace();
   Stickyfill.add(document.querySelector('nav'));
+  mediumZoom(document.querySelectorAll('.zoom'));
 
   window.odometerOptions = { auto: false };
   for (const el of document.querySelectorAll('.odometer')) {

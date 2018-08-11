@@ -1,7 +1,7 @@
 // base colors
 $black: #000000;
 $white: #fefefe;
-$off-black: #35383F;
+$off-black: #45484F;
 $blue: #95D0F2;
 
 // theme colors
@@ -22,15 +22,13 @@ $accent-primary-darker: darken($blue, 10%);
 
 // fonts
 $font-primary: "Josefin Sans", sans-serif;
-$font-weight-normal: 400;
-$font-weight-bold: 700;
 
 // boxes
 $padding-medium: 2.1rem;
 $padding-small: $padding-medium * .5;
 $padding-smaller: $padding-small * .5;
 $padding-smallest: $padding-smaller * .5;
-$padding-large: $padding-medium * 1.5;
+$padding-large: $padding-medium * 1.4;
 $padding-larger: $padding-large * 1.5;
 $padding-largest: $padding-larger * 1.5;
 $header-icon-height: 1.7rem;

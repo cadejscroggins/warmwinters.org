@@ -1,17 +1,16 @@
 baseURL = "https://warmwinters.org"
 enableEmoji = true
-googleAnalytics = "12345"
+googleAnalytics = "UA-36603722-7"
 languageCode = "en-us"
 layoutDir = "src/html"
 publishDir = "dist"
 staticDir = "build"
 taxonomies = []
-title = "Test"
+title = "Warm Winters"
 
 [params]
   description = "Our mission is to improve the lives of those living on the streets through the power of youth."
-  images = ["img/social.jpg"]
-  videos = []
+  image = "https://warmwinters.org/img/social.jpg"
   themeColor = "#fff"
 
 [permalinks]

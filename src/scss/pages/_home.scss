@@ -181,9 +181,8 @@
     width: 100%;
   }
 
-  form,
-  ul {
-    margin-top: $padding-large;
+  form {
+    margin-top: $padding-medium;
   }
 
   form {
@@ -197,6 +196,8 @@
   }
 
   ul {
+    margin-top: $padding-large;
+
     @include mq-small {
       display: flex;
       justify-content: center;

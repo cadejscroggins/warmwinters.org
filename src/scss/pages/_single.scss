@@ -75,8 +75,8 @@
 .our-approach__steps {
   @include mq-medium {
     order: 2;
-    width: 50%;
-    margin-left: $padding-larger;
+    width: 51%;
+    margin-left: $padding-large;
   }
 
   h5 {
@@ -103,26 +103,11 @@
   width: 1.5rem;
   margin-right: $padding-small;
   font-size: 3rem;
-  color: $bg-primary-hella-darker;
   text-align: right;
 
   @include mq-medium {
     width: 2rem;
     text-align: center;
-
-    &:before {
-      content: ' ';
-      position: absolute;
-      top: -.3em;
-      left: -.3em;
-      z-index: -1;
-      display: block;
-      text-align: center;
-      width: 1.7em;
-      height: 1.7em;
-      border-radius: 50%;
-      background-color: $bg-primary-dark;
-    }
   }
 }
 
@@ -135,7 +120,7 @@
   background-position: center;
 
   @include mq-medium {
-    width: 50%;
+    width: 49%;
     height: auto;
     margin-top: 0;
     margin-bottom: $padding-smallest;

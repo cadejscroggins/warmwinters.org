@@ -12,7 +12,7 @@ menu:
 
 <p class="intro-text">When Corinne was 11 years old, she saw a man who was homeless on the streets of her hometown. It was a really cold day, and he was wearing only jeans and a t-shirt, and immediately, Corinne felt a need to help him.</p>
 
-<p class="paragraph-text">She got together with her best Katrine, and both having grown up being avid ski-racers in Tahoe, they came up with the idea to take the warm hats, coats, gloves, and scarves left in the ski resort&rsquo;s lost-and-found, and donate the clothing to a local homeless shelter. The ski resorts said yes, and in 2011, Warm Winters was born.</p>
+<p class="paragraph-text">She got together with her best Katrine, and both having grown up being avid ski-racers in Tahoe, together they came up with the idea to take the warm hats, coats, gloves, and scarves left in the ski resort&rsquo;s lost-and-found, and donate the clothing to a local homeless shelter. The ski resorts said yes, and in 2011, Warm Winters was born.</p>
 
 <figure class="paragraph-figure">
   <img src="/img/blanket.jpg">

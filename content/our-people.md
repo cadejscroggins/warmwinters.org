@@ -21,6 +21,11 @@ menu:
 <h4 class="text-center">Board of Directors</h4>
 
 <div class="people">
+  <a href="https://www.linkedin.com/in/katrine-kirsebom-5b237a157/" target="_blank">
+    <img src="/img/profile-katrine.jpg">
+    <h5>Katrine Kirsebom</h5>
+    <span>Founder and Board Member</span>
+  </a>
   <a href="https://www.linkedin.com/in/lauriehindes/" target="_blank">
     <img src="/img/profile-laurie.jpg">
     <h5>Laurie Hindes</h5>
@@ -30,11 +35,6 @@ menu:
     <img src="/img/profile-avis.jpg">
     <h5>Avis Jolly</h5>
     <span>Secretary</span>
-  </a>
-  <a href="https://www.linkedin.com/in/katrine-kirsebom-5b237a157/" target="_blank">
-    <img src="/img/profile-katrine.jpg">
-    <h5>Katrine Kirsebom</h5>
-    <span>Board Member</span>
   </a>
   <a href="https://www.linkedin.com/in/yvonne-saucedo-11b226/" target="_blank">
     <img src="/img/profile-yvonne.jpg">

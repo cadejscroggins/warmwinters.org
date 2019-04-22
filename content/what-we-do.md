@@ -22,6 +22,9 @@ menu:
   <a href="/personal-care-product-drives/" style="background-image: url('/img/personal-care.jpg')">
     <h4><span>Personal Care Product Drives</span></h4>
   </a>
+  <a href="/school-curriculum-program/" style="background-image: url('/img/school-curriculum-program.jpg')">
+    <h4><span>School Curriculum Program</span></h4>
+  </a>
 </div>
 
 <div class="big-stat">

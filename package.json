@@ -19,14 +19,14 @@
     "watch:sass": "node-sass -w --include-path src/scss src/scss/main.scss build/bundle.css"
   },
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
+    "autoprefixer": "^9.6.1",
     "babel-cli": "^6.26.0",
     "babel-minify": "^0.5.0",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
-    "imagemin-cli": "^4.0.1",
-    "node-sass": "^4.11.0",
+    "imagemin-cli": "^5.0.0",
+    "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^6.1.2"
   }

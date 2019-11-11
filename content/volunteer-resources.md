@@ -32,7 +32,7 @@ menu:
     <h5>Ski Resort Programs</h5>
     <div class="link-list-simple">
       <ul>
-        <li><a href="/pdf/step-by-step-guide.pdf" target="_blank">Step by Step Guide <i data-feather="external-link"></i></a></li>
+        <li><a href="/pdf/step-by-step-guide-ski-resorts.pdf" target="_blank">Step by Step Guide <i data-feather="external-link"></i></a></li>
         <li><a href="/pdf/ski-resort-letter-thanks.pdf" target="_blank">Thank You Letter Template <i data-feather="external-link"></i></a></li>
         <li><a href="/pdf/ski-resort-letter.pdf" target="_blank">Letter Template <i data-feather="external-link"></i></a></li>
       </ul>
@@ -42,8 +42,8 @@ menu:
     <h5>Donation Drives</h5>
     <div class="link-list-simple">
       <ul>
-        <li><a href="/pdf/step-by-step-guide.pdf" target="_blank">Step by Step Guide <i data-feather="external-link"></i></a></li>
-        <li><a href="/pdf/flyer.pdf" target="_blank">Flyer Template <i data-feather="external-link"></i></a></li>
+        <li><a href="/pdf/step-by-step-guide-donation-drives.pdf" target="_blank">Step by Step Guide <i data-feather="external-link"></i></a></li>
+        <li><a href="/pdf/sock-drive-flyer.pdf" target="_blank">Flyer Sample <i data-feather="external-link"></i></a></li>
       </ul>
     </div>
   </div>
@@ -54,6 +54,6 @@ menu:
 <p class="paragraph-text">Please submit the applicable report form below so we can measure the total impact we are having on the homeless! Have a question? Please <a class="underline" href="/contact/">contact us</a>.</p>
 
 <div class="inline-buttons">
-  <a class="button button-small" href="https://goo.gl/forms/KmLu4MjWPEcVLkDx2" target="_blank">Ski Resort Program <i data-feather="external-link"></i></a>
-  <a class="button button-small" href="https://goo.gl/forms/oHzpz9PR5kg3Ur9U2" target="_blank">Donation Drive <i data-feather="external-link"></i></a>
+  <a class="button button-small" href="https://docs.google.com/forms/d/e/1FAIpQLScDD-HudKpvFMygz3bflwCU_uqqeONOD-GTZ1siPXVv-QgTwg/viewform?usp=sf_link" target="_blank">Ski Resort Program <i data-feather="external-link"></i></a>
+  <a class="button button-small" href="https://docs.google.com/forms/d/e/1FAIpQLSdOPb1N6s7vmrg1jluEkvpoxc6ZaBqlPwFze9G0An-PS4DEmw/viewform?usp=sf_link" target="_blank">Donation Drive <i data-feather="external-link"></i></a>
 </div>
